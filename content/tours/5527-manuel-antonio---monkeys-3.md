@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5527
-date: "Tue Jul 16 2019 17:25:34 GMT-0600 (Central Standard Time)"
+date: "Tue Jul 16 2019 19:31:26 GMT-0600 (Central Standard Time)"
 title: "Manuel Antonio & Monkeys"
 categories: 
   - category: Combo

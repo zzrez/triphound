@@ -9,7 +9,7 @@
 let supplier_id
 let limit
 //supplier_id = 3
-limit = 14
+limit = 120
 //! End
 
 if (supplier_id) {

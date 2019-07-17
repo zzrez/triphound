@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5530
-date: "Tue Jul 16 2019 17:25:34 GMT-0600 (Central Standard Time)"
+date: "Tue Jul 16 2019 19:31:27 GMT-0600 (Central Standard Time)"
 title: "Signature Rainforest Tour"
 categories: 
   - category: Rainforest
