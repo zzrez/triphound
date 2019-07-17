@@ -1,0 +1,1136 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Tour Listing | Yellow Cake</title>
+    <link rel="shortcut icon" href="/icons/icon-48x48.png?v=120d849229b4f52da18620ae0dc87ffb">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <meta name="theme-color" content="#00C2BD">
+    <link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=120d849229b4f52da18620ae0dc87ffb">
+    <link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=120d849229b4f52da18620ae0dc87ffb">
+    <link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=120d849229b4f52da18620ae0dc87ffb">
+    <link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=120d849229b4f52da18620ae0dc87ffb">
+    <link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=120d849229b4f52da18620ae0dc87ffb">
+    <link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=120d849229b4f52da18620ae0dc87ffb">
+    <link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=120d849229b4f52da18620ae0dc87ffb">
+    <link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=120d849229b4f52da18620ae0dc87ffb">
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <link type="text/css" rel="stylesheet" href="blob:http://localhost:8000/be6773aa-1732-4059-a458-dd6fe31283d9">
+    <link type="text/css" rel="stylesheet" href="blob:http://localhost:8000/4c61a787-37a1-4309-807d-3e89c17dbdaf">
+    <link type="text/css" rel="stylesheet" href="blob:http://localhost:8000/ed788700-c4bb-4f15-99cb-621ca11d89b2">
+    <link type="text/css" rel="stylesheet" href="blob:http://localhost:8000/083ba1a4-1980-4b92-a65a-c6197338dbba">
+    <link type="text/css" rel="stylesheet" href="blob:http://localhost:8000/443a13c7-3160-4db7-95e7-eee605bec3c3">
+    <link type="text/css" rel="stylesheet" href="blob:http://localhost:8000/06928577-b407-4dd4-87ca-741a82c373b6">
+    <link type="text/css" rel="stylesheet" href="blob:http://localhost:8000/76e555ca-37c5-4f1c-b504-cbfacb57a1e7">
+    <link type="text/css" rel="stylesheet" href="blob:http://localhost:8000/1d4f74e9-ab2a-4411-9795-4799070ac4e5">
+    <link type="text/css" rel="stylesheet" href="blob:http://localhost:8000/24030351-9bdd-407e-afb8-43299942e6f5">
+    <link type="text/css" rel="stylesheet" href="blob:http://localhost:8000/771595b2-fb45-4613-8073-25268f93a7df">
+    <link type="text/css" rel="stylesheet" href="blob:http://localhost:8000/17c04d9b-8430-4aa0-8844-504697d94f6c">
+    <link type="text/css" rel="stylesheet" href="blob:http://localhost:8000/5e81b91b-47b2-4797-a7cc-211e8374da85">
+    <link type="text/css" rel="stylesheet" href="blob:http://localhost:8000/c3212048-e312-46a5-96c7-43f32ccf3a31">
+    <link type="text/css" rel="stylesheet" href="blob:http://localhost:8000/b080b2e4-3d7f-4762-85cc-141205e67419">
+    <link type="text/css" rel="stylesheet" href="blob:http://localhost:8000/c36fd78f-4183-4f1f-b720-18d3eb7bfd1f">
+    <link type="text/css" rel="stylesheet" href="blob:http://localhost:8000/12bbbb61-15dc-4bfe-8628-8011f43413a5">
+    <link type="text/css" rel="stylesheet" href="blob:http://localhost:8000/1115fd93-14ed-430c-9aee-9e668765a50c">
+    <link type="text/css" rel="stylesheet" href="blob:http://localhost:8000/93bd5242-629e-4a75-afbb-a12572d1a08b">
+    <link type="text/css" rel="stylesheet" href="blob:http://localhost:8000/7329a046-bf6f-4d8f-a23a-861994d99154">
+    <link type="text/css" rel="stylesheet" href="blob:http://localhost:8000/014e50cf-7de0-42ed-bbba-b9be18cc7317">
+    <link type="text/css" rel="stylesheet" href="blob:http://localhost:8000/7e19c8a4-f16f-4cb7-9d3f-17c4ded0d1b4">
+    <style id="nprogress-styles">
+        #nprogress {
+            pointer-events: none;
+        }
+        
+        #nprogress .bar {
+            background: white;
+            position: fixed;
+            z-index: 1031;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+        }
+        
+        #nprogress .peg {
+            display: block;
+            position: absolute;
+            right: 0px;
+            width: 100px;
+            height: 100%;
+            box-shadow: 0 0 10px white, 0 0 5px white;
+            opacity: 1.0;
+            -webkit-transform: rotate(3deg) translate(0px, -4px);
+            -ms-transform: rotate(3deg) translate(0px, -4px);
+            transform: rotate(3deg) translate(0px, -4px);
+        }
+        
+        #nprogress .spinner {
+            display: block;
+            position: fixed;
+            z-index: 1031;
+            top: 15px;
+            right: 15px;
+        }
+        
+        #nprogress .spinner-icon {
+            width: 18px;
+            height: 18px;
+            box-sizing: border-box;
+            border: solid 2px transparent;
+            border-top-color: white;
+            border-left-color: white;
+            border-radius: 50%;
+            -webkit-animation: nprogress-spinner 400ms linear infinite;
+            animation: nprogress-spinner 400ms linear infinite;
+        }
+        
+        .nprogress-custom-parent {
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .nprogress-custom-parent #nprogress .spinner,
+        .nprogress-custom-parent #nprogress .bar {
+            position: absolute;
+        }
+        
+        @-webkit-keyframes nprogress-spinner {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+        
+        @keyframes nprogress-spinner {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+    <style type="text/css">
+        :root topadblock,
+        :root td[valign="top"] > .mainmenu[style="padding:10px 0 0 0 !important;"],
+        :root input[onclick^="window.open('http://www.friendlyduck.com/"],
+        :root img[alt^="Fuckbook"],
+        :root iframe[src^="http://cdn1.adexprt.com/"],
+        :root iframe[src^="http://ad.yieldmanager.com/"],
+        :root header#hdr + #main > div[data-hveid],
+        :root div[role="navigation"] + c-wiz > script + div > .kxhcC,
+        :root div[id^="mainads"],
+        :root div[id^="dmRosAdWrapper"],
+        :root div[id^="div-ads-"],
+        :root iframe[id^="google_ads_iframe"],
+        :root div[id^="crt-"][style],
+        :root div[id^="cns_ads_"],
+        :root div[id^="adspot-"],
+        :root div[id^="tms-ad-dfp-"],
+        :root div[id^="ads300_250-widget"],
+        :root div[id^="ads250_250-widget"],
+        :root div[id^="adrotate_widgets-"],
+        :root div[id^="adfox_"],
+        :root div[id^="ad_script_"],
+        :root div[id^="ad_bigbox_"],
+        :root div[id^="ad-server-"],
+        :root div[id^="acm-ad-tag-"],
+        :root div[id^="ADV-SLOT-"],
+        :root div[data-native_ad],
+        :root div[class^="proadszone-"],
+        :root div[class^="pane-google-admanager-"],
+        :root div[class^="index_displayAd_"],
+        :root div[class^="index_adBeforeContent_"],
+        :root div[class^="index_adAfterContent_"],
+        :root div[class^="block-openx-"],
+        :root div[class^="ads-partner-"],
+        :root div[class^="ad_position_"],
+        :root div[class^="ad_border_"],
+        :root div[class^="Ad__container"],
+        :root div[id^="div-adtech-ad-"],
+        :root div[class*="_AdInArticle_"],
+        :root div > [class][onclick*=".updateAnalyticsEvents"],
+        :root bottomadblock,
+        :root aside[itemtype="https://schema.org/WPAdBlock"],
+        :root aside[id^="div-gpt-ad"],
+        :root div[id^="ad-cid-"],
+        :root aside[id^="advads_ad_widget-"],
+        :root aside[id^="adrotate_widgets-"],
+        :root a[target="_blank"][href^="http://api.taboola.com/"],
+        :root a[style="display:block;width:300px;min-height:250px"][href^="http://li.cnet.com/click?"],
+        :root a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source,
+        :root a[onmousedown^="this.href='http://staffpicks.outbrain.com/network/redir?"][target="_blank"],
+        :root a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source,
+        :root a[onmousedown^="this.href='/wp-content/embed-ad-content/"],
+        :root div[class^="Ad__bigBox"],
+        :root a[onclick*="//m.economictimes.com/etmack/click.htm"],
+        :root a[href^="https://www.what-sexdating.com/"],
+        :root a[href^="https://www.share-online.biz/affiliate/"],
+        :root a[href^="https://www.moscarossa.biz/"],
+        :root a[href^="https://www.incontri-matura.com/"],
+        :root a[href^="https://www.goldenfrog.com/vyprvpn?offer_id="][href*="&aff_id="],
+        :root a[href^="https://www.firstload.com/affiliate/"],
+        :root a[href^="https://www.camyou.com/?cam="][href*="&track="],
+        :root a[href^="https://www.bebi.com"],
+        :root a[href^="https://www.adskeeper.co.uk/"],
+        :root div[id^="ad-gpt-"],
+        :root a[href^="https://windscribe.com/promo/"],
+        :root a[href^="https://vodexor.us/"],
+        :root a[href^="https://trust.zone/go/r.php?RID="],
+        :root a[href^="https://traffic.bannerator.com/"],
+        :root a[href^="https://tracking.truthfinder.com/?a="],
+        :root a[href^="https://track.healthtrader.com/"],
+        :root a[href^="https://track.clickmoi.xyz/"],
+        :root a[href^="https://track.adform.net/"],
+        :root a[href^="https://track.52zxzh.com/"],
+        :root div[class^="gemini-ad"],
+        :root a[href^="https://torguard.net/aff.php"],
+        :root a[href^="https://t.mobtya.com/"],
+        :root aside[id^="tn_ads_widget-"],
+        :root a[href^="https://syndication.exoclick.com/splash.php?"],
+        :root div[id^="YFBMSN"],
+        :root a[href^="https://secure.eveonline.com/ft/?aid="],
+        :root div[id^="zergnet-widget"],
+        :root a[href^="https://rev.adsession.com/"],
+        :root a[href^="https://retiremely.com/"],
+        :root a[href^="https://www.pornhat.com/"][rel="nofollow"],
+        :root a[href^="https://pubads.g.doubleclick.net/"],
+        :root a[href^="https://prf.hn/click/"][href*="/adref:"],
+        :root a[href^="https://mk-cdn.net/"],
+        :root div[id^="proadszone-"],
+        :root a[href^="https://mk-ads.com/"],
+        :root a[href^="https://members.linkifier.com/public/affiliateLanding?refCode="],
+        :root a[href^="https://medleyads.com/"],
+        :root iframe[src^="http://cdn2.adexprt.com/"],
+        :root div[id^="ads300_100-widget"],
+        :root a[href^="https://lingthatsparleso.info/"],
+        :root a[href^="https://landing1.brazzersnetwork.com"],
+        :root a[href^="https://land.rk.com/landing/"],
+        :root a[href^="https://land.brazzersnetwork.com/landing/"],
+        :root a[href^="https://jmp.awempire.com/"],
+        :root a[href^="https://incisivetrk.cvtr.io/click?"],
+        :root a[href^="https://iactrivago.ampxdirect.com/"],
+        :root a[onmousedown^="this.href='http://staffpicks.outbrain.com/network/redir?"][target="_blank"] + .ob_source,
+        :root a[href^="https://googleads.g.doubleclick.net/pcs/click"],
+        :root a[href^="https://gogoman.me/"],
+        :root a[href^="https://go.stripchat.com/"][href*="&campaignId="],
+        :root div[class^="BlockAdvert-"],
+        :root a[href^="https://go.onclasrv.com/"],
+        :root a[href^="https://go.ad2up.com/"],
+        :root a[href^="https://freeadult.games/"],
+        :root a[href^="https://flirtaescopa.com/"],
+        :root a[href^="https://farm.plista.com/pets"],
+        :root a[href^="https://evaporate.pw/"],
+        :root div[class^="local-feed-banner-ads"],
+        :root a[href^="https://djtcollectorclub.org/"][href*="?affiliate_id="],
+        :root a[href^="https://click.plista.com/pets"],
+        :root a[href^="https://chaturbate.xyz/"],
+        :root a[href^="https://chaturbate.jjgirls.com/"][href*="?tour="],
+        :root a[href^="https://chaturbate.com/in/?tour="],
+        :root a[href^="https://chaturbate.com/affiliates/"],
+        :root a[href^="https://www.googleadservices.com/pagead/aclk?"],
+        :root a[href^="https://awentw.com/"],
+        :root a[href^="https://servedbyadbutler.com/"],
+        :root a[href^="https://affiliates.bet-at-home.com/processing/"],
+        :root a[href^="https://adswick.com/"],
+        :root a[href^="https://adserver.adreactor.com/"],
+        :root a[href^="https://refpaano.host/"],
+        :root a[href^="https://adhealers.com/"],
+        :root a[href^="https://adclick.g.doubleclick.net/"],
+        :root a[href^="https://ad.doubleclick.net/"],
+        :root a[href^="https://ad.atdmt.com/"],
+        :root a[href^="https://aaucwbe.com/"],
+        :root a[href^="https://a.adtng.com/"],
+        :root a[href^="http://xtgem.com/click?"],
+        :root a[href^="https://ads.trafficpoizon.com/"],
+        :root a[href^="http://wxdownloadmanager.com/dl/"],
+        :root a[href^="https://chaturbate.com/in/?track="],
+        :root a[href^="http://www1.clickdownloader.com/"],
+        :root a[href^="http://www.zergnet.com/i/"],
+        :root a[href^="http://www.usearchmedia.com/signup?"],
+        :root a[href^="http://www.torntv-downloader.com/"],
+        :root a[href^="http://www.tirerack.com/affiliates/"],
+        :root a[href^="http://www.text-link-ads.com/"],
+        :root div[id^="div_openx_ad_"],
+        :root a[href^="http://www.streamate.com/exports/"],
+        :root a[href^="http://www.sfippa.com/"],
+        :root a[href^="http://www.xmediaserve.com/"],
+        :root a[href^="http://www.sex.com/videos/?utm_"],
+        :root a[href^="http://www.sex.com/?utm_"],
+        :root a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"],
+        :root a[href^="http://www.roboform.com/php/land.php"],
+        :root div[id^="advads-"],
+        :root a[href^="http://www.ringtonematcher.com/"],
+        :root a[href^="http://www.quick-torrent.com/download.html?aff"],
+        :root a[href^="http://www.pinkvisualgames.com/?revid="],
+        :root a[href^="http://www.paddypower.com/?AFF_ID="],
+        :root div[data-spotim-slot],
+        :root a[href^="http://www.mysuperpharm.com/"],
+        :root a[href^="http://www.myfreepaysite.com/sfw_int.php?aid"],
+        :root a[href^="http://www.myfreepaysite.com/sfw.php?aid"],
+        :root a[href^="http://www.myfreecams.com/?co_id="][href*="&track="],
+        :root a[href^="http://www.moneyducks.com/"],
+        :root a[href^="http://www.securegfm.com/"],
+        :root a[href^="http://www.liversely.net/"],
+        :root a[href^="http://www.linkbucks.com/referral/"],
+        :root a[href^="http://www.ireel.com/signup?ref"],
+        :root a[href^="http://www.incredimail.com/?id="],
+        :root a[href^="http://www.idownloadplay.com/"],
+        :root a[href^="http://www.hitcpm.com/"],
+        :root a[href^="http://www.greenmangaming.com/?tap_a="],
+        :root a[href^="http://www.gamebookers.com/cgi-bin/intro.cgi?"],
+        :root a[href^="http://www.friendlyquacks.com/"],
+        :root a[href^="http://www.friendlyduck.com/AF_"],
+        :root a[href^="http://www.fpcTraffic2.com/blind/in.cgi?"],
+        :root a[href^="http://www.fonts.com/BannerScript/"],
+        :root a[href^="http://www.fleshlight.com/"],
+        :root a[href^="http://www.flashx.tv/downloadthis"],
+        :root a[href^="http://www.firstload.de/affiliate/"],
+        :root a[href^="http://www.fducks.com/"],
+        :root a[href^="http://www.faceporn.net/free?"],
+        :root a[href^="http://www.epicgameads.com/"],
+        :root a[href^="http://www.easydownloadnow.com/"],
+        :root a[href^="http://www.duckssolutions.com/"],
+        :root a[href^="https://go.trkclick2.com/"],
+        :root a[href^="http://www.duckcash.eu/"],
+        :root a[href^="http://www.drowle.com/"],
+        :root a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"],
+        :root a[href^="http://www.downloadweb.org/"],
+        :root a[href^="http://www.installads.net/"],
+        :root a[href^="http://www.download-provider.org/"],
+        :root a[href^="http://www.down1oads.com/"],
+        :root iframe[id^="google_ads_frame"],
+        :root a[href^="https://trafficmedia.center/"],
+        :root a[href^="http://www.dealcent.com/register.php?affid="],
+        :root a[href^="http://www.clkads.com/adServe/"],
+        :root a[href^="http://www.clickansave.net/"],
+        :root a[href^="http://www.cash-duck.com/"],
+        :root a[href^="http://www.bitlord.me/share/"],
+        :root a[href^="http://www.bet365.com/"][href*="?affiliate="],
+        :root a[href^="http://www.bet365.com/"][href*="&affiliate="],
+        :root a[href^="http://www.badoink.com/go.php?"],
+        :root div[id^="yandex_ad"],
+        :root a[href^="http://www.richducks.com/"],
+        :root a[href^="http://www.babylon.com/welcome/index?affID"],
+        :root a[href^="http://www.sexgangsters.com/?pid="],
+        :root a[href^="http://www.amazon.co.uk/exec/obidos/external-search?"],
+        :root a[href^="https://ads-for-free.com/click.php?"],
+        :root a[href^="http://www.socialsex.com/"],
+        :root a[href^="http://www.affbuzzads.com/affiliate/"],
+        :root a[href^="https://www.camsoda.com/enter.php?id="],
+        :root a[href^="http://www.afco2go.com/srv.php?"],
+        :root a[href^="https://badoinkvr.com/"],
+        :root a[href^="http://www.adxpansion.com"],
+        :root a[href^="http://www.ragazzeinvendita.com/?rcid="],
+        :root a[href^="http://www.adbrite.com/mb/commerce/purchase_form.php?"],
+        :root a[href^="http://www.TwinPlan.com/AF_"],
+        :root a[href^="https://porndeals.com/?track="],
+        :root a[href^="http://www.1clickmoviedownloader.info/"],
+        :root div[class^="adbanner_"],
+        :root a[href^="http://www.brightwheel.info/"],
+        :root a[href^="http://www.1clickdownloader.com/"],
+        :root a[href^="http://www.123-reg.co.uk/affiliate2.cgi"],
+        :root div[id^="lazyad-"],
+        :root a[href^="http://wopertific.info/"],
+        :root a[href^="http://wgpartner.com/"],
+        :root a[href^="http://webgirlz.online/landing/"],
+        :root div[id^="ads300_600-widget"],
+        :root div[class^="Ad__adContainer"],
+        :root a[href^="http://web.adblade.com/"],
+        :root a[href^="https://www.nutaku.net/signup/landing/"],
+        :root a[href^="http://us.marketgid.com"],
+        :root a[href^="http://www.freefilesdownloader.com/"],
+        :root a[href^="http://ul.to/ref/"],
+        :root a[href^="http://trk.mdrtrck.com/"],
+        :root div[id^="div_ad_stack_"],
+        :root a[href^="http://traffic.tc-clicks.com/"],
+        :root a[href^="http://www.graboid.com/affiliates/"],
+        :root a[href^="http://tracking.toroadvertising.com/"],
+        :root a[href^="http://www.liutilities.com/"],
+        :root a[href^="http://www.dl-provider.com/search/"],
+        :root a[href^="http://tracking.deltamediallc.com/"],
+        :root a[href^="https://www.popads.net/users/"],
+        :root a[href^="https://sexdatingz.live/"],
+        :root a[href^="https://adultfriendfinder.com/go/page/landing"],
+        :root a[href^="http://tracking.crazylead.com/"],
+        :root div[role="navigation"] + c-wiz > div > .kxhcC,
+        :root a[href^="http://tracker.mybroadband.co.za/"],
+        :root a[href^="http://track.adform.net/"],
+        :root a[href^="http://tour.affbuzzads.com/"],
+        :root a[href^="https://iac.ampxdirect.com/"],
+        :root a[href^="http://t.mdn2015x3.com/"],
+        :root a[href^="http://steel.starflavor.bid/"],
+        :root a[href^="http://stateresolver.link/"],
+        :root a[href^="http://sharesuper.info/"],
+        :root a[href^="http://server.cpmstar.com/click.aspx?poolid="],
+        :root a[href^="http://serve.williamhill.com/promoRedirect?"],
+        :root a[href^="http://www.downloadthesefiles.com/"],
+        :root a[href^="http://secure.cbdpure.com/aff/"],
+        :root a[href^="http://uploaded.net/ref/"],
+        :root a[href^="http://s9kkremkr0.com/"],
+        :root a[href*="/cmd.php?ad="],
+        :root a[href^="http://refpaano.host/"],
+        :root a[href^="http://record.commissionking.com/"],
+        :root div[class*="-storyBodyAd-"],
+        :root a[href^="http://record.betsafe.com/"],
+        :root a[href^="http://websitedhoome.com/"],
+        :root a[href^="http://see-work.info/"],
+        :root a[href^="http://prousa.work/"],
+        :root a[href^="http://gca.sh/user/register?ref="],
+        :root a[href^="http://promos.bwin.com/"],
+        :root a[href^="http://prochina.link/"],
+        :root a[href^="http://z1.zedo.com/"],
+        :root a[href^="http://pokershibes.com/index.php?ref="],
+        :root a[href^="http://mojofun.info/"],
+        :root a[href^="http://mmo123.co/"],
+        :root a[href^="http://media.paddypower.com/redirect.aspx?"],
+        :root a[href*=".qertewrt.com/"],
+        :root a[href^="http://lp.ncdownloader.com/"],
+        :root #rhs_block .xpdopen > ._OKe > div > .mod > ._yYf,
+        :root a[href^="http://lp.ezdownloadpro.info/"],
+        :root a[href^="https://track.trkinator.com/"],
+        :root a[href^="https://ads.ad4game.com/"],
+        :root a[href*="/adServe/banners?"],
+        :root a[href^="http://liversely.com/"],
+        :root a[href^="http://feeds1.validclick.com/"],
+        :root a[href^="http://latestdownloads.net/download.php?"],
+        :root a[href^="http://keep2share.cc/pr/"],
+        :root div[data-ad-underplayer],
+        :root a[href^="http://k2s.cc/code/"],
+        :root a[href*=".bang.com/"][href*="&aff="],
+        :root a[href^="http://join3.bannedsextapes.com/track/"],
+        :root a[href^="https://secure.bstlnk.com/"],
+        :root a[href^="http://green.trafficinvest.com/"],
+        :root a[href^="http://jobitem.org/"],
+        :root a[href^="//adbit.co/?a=Advertise&"],
+        :root a[href^="http://istri.it/?"],
+        :root a[href^="http://www.fbooksluts.com/"],
+        :root a[href^="http://www.cdjapan.co.jp/aff/click.cgi/"],
+        :root a[href*="//ridingintractable.com/"],
+        :root a[href^="http://c.actiondesk.com/"],
+        :root a[href^="http://intent.bingads.com/"],
+        :root a[href^="http://igromir.info/"],
+        :root a[href^="http://cdn.adstract.com/"],
+        :root a[href^="http://hyperlinksecure.com/go/"],
+        :root a[href^="http://45eijvhgj2.com/"],
+        :root a[href^="http://hpn.houzz.com/"],
+        :root a[href^="//look.djfiln.com/"],
+        :root a[href^="http://greensmoke.com/"],
+        :root a[href^="http://farm.plista.com/pets"],
+        :root a[href^="http://mo8mwxi1.com/"],
+        :root div[class^="ResponsiveAd-"],
+        :root a[href^="http://www.revenuehits.com/"],
+        :root a[href^="http://go.seomojo.com/tracking202/"],
+        :root div[id^="block-views-topheader-ad-block-"],
+        :root a[href^="http://go.oclaserver.com/"],
+        :root .__y_elastic .__y_item,
+        :root a[href^="http://go.mobisla.com/"],
+        :root a[href^="//srv.buysellads.com/"],
+        :root a[href^="http://g1.v.fwmrm.net/ad/"],
+        :root a[href^="http://imads.integral-marketing.com/"],
+        :root a[href^="http://freesoftwarelive.com/"],
+        :root a[href^="http://adtrackone.eu/"],
+        :root a[href^="http://finaljuyu.com/"],
+        :root a[href^="http://fileupnow.rocks/"],
+        :root a[href^="http://fileloadr.com/"],
+        :root a[href^="https://dltags.com/"],
+        :root a[href^="http://onclickads.net/"],
+        :root a[href^="http://www.terraclicks.com/"],
+        :root a[href^="http://www.coinducks.com/"],
+        :root a[href^="http://internalredirect.site/"],
+        :root a[href^="http://extra.bet365.com/"][href*="?affiliate="],
+        :root a[href^="http://ethfw0370q.com/"],
+        :root a[href^="http://elitefuckbook.com/"],
+        :root a[href^="https://www.brazzersnetwork.com/landing/"],
+        :root [href*="//xml.revrtb.com/"],
+        :root a[href^="http://elite-sex-finder.com/?"],
+        :root a[href^="http://eclkmpsa.com/"],
+        :root a[href*="//3wr110.xyz/"],
+        :root a[href^="http://earandmarketing.com/"],
+        :root a[href^="http://secure.signup-way.com/"],
+        :root a[href^="http://getlinksinaseconds.com/"],
+        :root #content > #center > .dose > .dosesingle,
+        :root a[href^="http://campaign.bharatmatrimony.com/track/"],
+        :root a[href^="http://d2.zedo.com/"],
+        :root a[href^="http://contractallsticker.net/"],
+        :root a[href^="http://codec.codecm.com/"],
+        :root div[id^="google_dfp_"],
+        :root a[href^="//5e1fcb75b6d662d.com/"],
+        :root a[href^="http://googleads.g.doubleclick.net/pcs/click"],
+        :root div[id^="ads120_600-widget"],
+        :root a[href^="http://clk.directrev.com/"],
+        :root a[href^="//oardilin.com/"],
+        :root a[href^="http://refer.webhostingbuzz.com/"],
+        :root a[href^="https://paid.outbrain.com/network/redir?"],
+        :root a[href^="http://clickserv.sitescout.com/"],
+        :root a[href*=".intab.fun/"],
+        :root a[href^="http://clicks.guamwnvgashbkashawhgkhahshmashcas.pw/"],
+        :root a[href^="http://www.downloadplayer1.com/"],
+        :root a[href^="http://clicks.binarypromos.com/"],
+        :root div[class^="largeRectangleAd_"],
+        :root a[href^="https://dediseedbox.com/clients/aff.php?"],
+        :root a[href^="http://www.wantstraffic.com/"],
+        :root .lads[width="100%"][style="background:#FFF8DD"],
+        :root a[href^="http://databass.info/"],
+        :root a[href^="http://www.urmediazone.com/signup"],
+        :root a[href^="http://ads.pheedo.com/"],
+        :root a[href^="http://click.plista.com/pets"],
+        :root a[href^="http://chaturbate.com/affiliates/"],
+        :root a[href^="http://www.friendlyadvertisements.com/"],
+        :root a[href^="http://cdn3.adbrau.com/"],
+        :root a[href^="http://get.slickvpn.com/"],
+        :root a[href^="http://2pxg8bcf.top/"],
+        :root a[href^="http://cpaway.afftrack.com/"],
+        :root a[href^="http://cdn.adsrvmedia.net/"],
+        :root a[href^="http://360ads.go2cloud.org/"],
+        :root a[href^="http://dftrck.com/"],
+        :root a[href^="http://casino-x.com/?partner"],
+        :root div[data-flt-ve="sponsored_search_ads"],
+        :root a[href^="http://campeeks.com/"][href*="&utm_"],
+        :root a[href^="http://www.on2url.com/app/adtrack.asp"],
+        :root #\5f _nq__hh[style="display:block!important"],
+        :root a[href^="http://guideways.info/"],
+        :root a[href^="http://campaign.bharatmatrimony.com/cbstrack/"],
+        :root a[href^="http://ads.expekt.com/affiliates/"],
+        :root a[href^="http://callville.xyz/"],
+        :root div[itemtype="http://schema.org/WPAdBlock"],
+        :root a[href^="http://xads.zedo.com/"],
+        :root a[href^="http://c.jumia.io/"],
+        :root a[href^="https://gamescarousel.com/"],
+        :root a[href^="http://down1oads.com/"],
+        :root a[href^="http://buysellads.com/"],
+        :root a[href^="https://uncensored.game/"],
+        :root a[href^="http://feedads.g.doubleclick.net/"],
+        :root a[href^="http://bs.serving-sys.com/"],
+        :root a[href^="http://bodelen.com/"],
+        :root a[href^="http://popup.taboola.com/"],
+        :root a[href^="http://betahit.click/"],
+        :root a[href^="https://trklvs.com/"],
+        :root a[href^="http://bestorican.com/"],
+        :root a[href^="http://bcp.crwdcntrl.net/"],
+        :root a[href^="http://bc.vc/?r="],
+        :root a[href^="http://banners.victor.com/processing/"],
+        :root a[href^="https://uncensored3d.com/"],
+        :root a[href^="http://dethao.com/"],
+        :root div[class$="dealnews"] > .dealnews,
+        :root a[href^="http://click.payserve.com/"],
+        :root a[href^="http://pubads.g.doubleclick.net/"],
+        :root a[href^="http://azmobilestore.co/"],
+        :root a[href^="http://install.securewebsiteaccess.com/"],
+        :root .inlineNewsletterSubscription + .inlineNewsletterSubscription div[class$="_item"],
+        :root a[href^="http://clkmon.com/adServe/"],
+        :root a[href^="https://www.adultempire.com/"][href*="?partner_id="],
+        :root a[href^="http://www.torntvdl.com/"],
+        :root a[href^="http://at.atwola.com/"],
+        :root a[href^="//88d7b6aa44fb8eb.com/"],
+        :root a[href^="http://api.ringtonematcher.com/"],
+        :root div[id^="ad-position-"],
+        :root a[href^="http://affiliate.glbtracker.com/"],
+        :root a[href^="http://anonymous-net.com/"],
+        :root a[href^="https://www.dsct1.com/"],
+        :root a[href^="http://amzn.to/"] > img[src^="data"],
+        :root .icons-rss-feed + .icons-rss-feed div[class$="_item"],
+        :root a[href^="http://aflrm.com/"],
+        :root a[href^="http://affiliates.pinnaclesports.com/processing/"],
+        :root a[href^="http://affiliate.godaddy.com/"],
+        :root a[href^="http://partner.sbaffiliates.com/"],
+        :root a[href^="http://affiliate.coral.co.uk/processing/"],
+        :root a[href^="http://aff.ironsocket.com/"],
+        :root a[href^="http://zevera.com/afi.html"],
+        :root a[href^="http://adsrv.keycaptcha.com"],
+        :root a[href^="http://play4k.co/"],
+        :root a[href^="http://adserving.liveuniversenetwork.com/"],
+        :root a[href^="https://zononi.com/"],
+        :root a[href^="http://adserving.unibet.com/"],
+        :root a[href^="https://bs.serving-sys.com"],
+        :root a[href^="https://atomidownload.com/"],
+        :root a[href^="http://adtransfer.net/"],
+        :root a[href^="http://adserver.itsfogo.com/"],
+        :root a[href^="https://secure.adnxs.com/clktrb?"],
+        :root a[href^="http://adserver.adtechus.com/"],
+        :root a[href^="http://adserver.adreactor.com/"],
+        :root a[href^="http://www.yourfuckbook.com/?"],
+        :root .GHOFUQ5BG2 > .GHOFUQ5BF2 > .GHOFUQ5BG5,
+        :root a[href^="http://ads.sprintrade.com/"],
+        :root .__ywvr .__y_item,
+        :root a[href^="http://download-performance.com/"],
+        :root #\5f _mom_ad_12,
+        :root a[href^="http://ads.integral-marketing.com/"],
+        :root a[href^="http://adserver.adtech.de/"],
+        :root a[href*="deliver.trafficfabrik.com"],
+        :root a[href^="http://ads.betfair.com/redirect.aspx?"],
+        :root a[href^="http://ads.affbuzzads.com/"],
+        :root a[href^="http://online.ladbrokes.com/promoRedirect?"],
+        :root a[href^="http://go.trafficshop.com/"],
+        :root a[href^="http://ads.ad-center.com/"],
+        :root div[id^="advt-"],
+        :root a[href^="http://admingame.info/"],
+        :root a[href^="http://adlev.neodatagroup.com/"],
+        :root div[id^="q1-adset-"],
+        :root a[href^="http://adfarm.mediaplex.com/"],
+        :root a[href^="http://ad.doubleclick.net/"],
+        :root a[href^="http://ad.au.doubleclick.net/"],
+        :root a[href^="http://www.adskeeper.co.uk/"],
+        :root a[href^="http://ad-emea.doubleclick.net/"],
+        :root a[href*="/servlet/click/zone?"],
+        :root a[href^="http://ad-apac.doubleclick.net/"],
+        :root a[href^="https://understandsolar.com/signup/?lead_source="][href*="&tracking_code="],
+        :root a[href^="http://hdplugin.flashplayer-updates.com/"],
+        :root a[href^="http://data.ad.yieldmanager.net/"],
+        :root a[href^="http://a63t9o1azf.com/"],
+        :root a[href^="http://srvpub.com/"],
+        :root a[href^="http://a.adquantix.com/"],
+        :root a[href^="http://NowDownloadAll.com"],
+        :root a[href^="http://t.mdn2015x1.com/"],
+        :root a[href^="http://s5prou7ulr.com/"],
+        :root #content > #right > .dose > .dosesingle,
+        :root a[href^="http://9nl.es/"],
+        :root a[href^="http://abc2.mobile-10.com/"],
+        :root a[href^="http://adtrack123.pl/"],
+        :root [id*="MGWrap"],
+        :root a[href^="http://9amq5z4y1y.com/"],
+        :root a[href^="http://www.ducksnetwork.com/"],
+        :root a[href^="http://3wr110.net/"],
+        :root a[href^="http://www5.smartadserver.com/call/pubjumpi/"],
+        :root a[href^="//ads.ad-center.com/"],
+        :root a[href^="http://1phads.com/"],
+        :root a[href^="//pubads.g.doubleclick.net/"],
+        :root a[href^="//nlkdom.com/"],
+        :root #MAIN.ShowTopic > .ad,
+        :root a[href^="http://findersocket.com/"],
+        :root a[href^="https://m.do.co/c/"] > img,
+        :root a[href^="http://cdn3.adexprts.com/"],
+        :root a[href^="//jsmptjmp.com/"],
+        :root .ra[width="30%"][align="right"] + table[width="70%"][cellpadding="0"],
+        :root a[href^="http://searchtabnew.com/"],
+        :root a[href^="http://pan.adraccoon.com?"],
+        :root a[href^="https://ilovemyfreedoms.com/"][href*="?affiliate_id="],
+        :root a[href^="//healthaffiliate.center/"],
+        :root a[href^="https://clixtrac.com/"],
+        :root a[href^="//go.onclasrv.com/"],
+        :root a[href^="http://games.ucoz.ru/"][target="_blank"],
+        :root [id*="ScriptRoot"],
+        :root div[id^="advads_"],
+        :root a[href^="//db52cc91beabf7e8.com/"],
+        :root a[href^="http://ads.activtrades.com/"],
+        :root #\5f _mom_ad_2,
+        :root div[id^="drudge-column-ads-"],
+        :root a[href^="//api.ad-goi.com/"],
+        :root .plistaList > .plista_widget_underArticle_item[data-type="pet"],
+        :root #center_col > #taw > #tvcap > .commercial-unit-desktop-top,
+        :root a[href^="http://www.afgr2.com/"],
+        :root #mn div[style="position:relative"] > #center_col > ._Ak,
+        :root a[href^="http://bcntrack.com/"],
+        :root a[href^="https://www.oboom.com/ad/"],
+        :root a[href^="//4f6b2af479d337cf.com/"],
+        :root a[href^="https://www.friendlyduck.com/AF_"],
+        :root #center_col > #resultStats + div + #res + #tads,
+        :root a[href^="//40ceexln7929.com/"],
+        :root a[href^="https://www.arthrozene.com/"][href*="?tid="],
+        :root a[href^="//00ae8b5a9c1d597.com/"],
+        :root div[id^="div-gpt-ad"],
+        :root a[href^="http://fusionads.net"],
+        :root a[href^="https://awejmp.com/"],
+        :root a[href^=" http://www.sex.com/"][href*="&utm_"],
+        :root a[href^="https://keep2share.cc/pr/"],
+        :root [onclick*="content.ad/"],
+        :root div[class^="awpcp-random-ads"],
+        :root a[href^="http://galleries.securewebsiteaccess.com/"],
+        :root a[href^=" http://n47adshostnet.com/"],
+        :root .section-result[data-result-ad-type],
+        :root script[src^="http://free-shoutbox.net/app/webroot/shoutbox/sb.php?shoutbox="] + #freeshoutbox_content,
+        :root a[href^=" http://ads.ad-center.com/"],
+        :root div[id^="dfp-slot-"],
+        :root .l-container > #fishtank,
+        :root a[href^="//go.vedohd.org/"],
+        :root a[href^="https://fileboom.me/pr/"],
+        :root a[href^="http://marketgid.com"],
+        :root a[href*="pussl3.com"],
+        :root .GPMV2XEDA2 > .GPMV2XEDP1 > .GPMV2XEDJBB,
+        :root a[href*="onclkds."],
+        :root div[class^="AdhesionAd_"],
+        :root .trc_rbox_div .syndicatedItem,
+        :root #ads > .dose > .dosesingle,
+        :root a[href^="//bwnjijl7w.com/"],
+        :root a[href*="delivery.trafficfabrik.com"],
+        :root a[href^="http://galleries.pinballpublishernetwork.com/"],
+        :root a[href^="http://4c7og3qcob.com/"],
+        :root a[href*="?adlivk="][href*="&refer="],
+        :root a[href^="https://spygasm.com/track?"],
+        :root a[href^="http://data.linoleictanzaniatitanic.com/"],
+        :root a[href*="=exoclick"],
+        :root div[class^="backfill-taboola-home-slot-"],
+        :root a[href^="https://gghf.mobi/"],
+        :root a[href*="=adscript"],
+        :root #mn #center_col > div > h2.spon:first-child,
+        :root a[href*="=Adtracker"],
+        :root FBS-AD,
+        :root .ra[align="right"][width="30%"],
+        :root a[href*="5iclx7wa4q.com"],
+        :root a[href*=".revimedia.com/"],
+        :root a[href*=".irtyc.com/"],
+        :root [lazy-ad="leftbottom_banner"],
+        :root a[href^="http://fsoft4down.com/"],
+        :root a[href*="ad2upapp.com/"],
+        :root .plista_widget_belowArticleRelaunch_item[data-type="pet"],
+        :root div[data-mediatype="advertising"],
+        :root a[href^="https://playuhd.host/"],
+        :root a[href*=".adsrv.eacdn.com/"] > img,
+        :root a[href^="http://lp.ilivid.com/"],
+        :root a[href*=".inclk.com/"],
+        :root a[href^="https://transfer.xe.com/signup/track/redirect?"],
+        :root a[href*=".ichlnk.com/"],
+        :root a[href^="http://secure.hostgator.com/~affiliat/"],
+        :root [onclick^="window.open('http://adultfriendfinder.com/search/"],
+        :root a[href*=".approvallamp.club/"],
+        :root a[href^="http://data.committeemenencyclopedicrepertory.info/"],
+        :root a[href*=".allsports4you.club"],
+        :root a[href^="http://spygasm.com/track?"],
+        :root .ob_dual_right > .ob_ads_header ~ .odb_div,
+        :root a[href*=".adk2x.com/"],
+        :root a[href^="http://www.firstload.com/affiliate/"],
+        :root a[href^="http://duckcash.eu/"],
+        :root a[href^="http://www.mobileandinternetadvertising.com/"],
+        :root a[data-widget-outbrain-redirect^="http://paid.outbrain.com/network/redir?"],
+        :root a[data-url^="http://paid.outbrain.com/network/redir?"] + .author,
+        :root a[href^="http://www.my-dirty-hobby.com/?sub="],
+        :root a[href^="http://liversely.net/"],
+        :root a[href^="http://www.bluehost.com/track/"] > img,
+        :root a[data-url^="http://paid.outbrain.com/network/redir?"],
+        :root a[data-redirect^="https://paid.outbrain.com/network/redir?"],
+        :root a[href^="http://www.twinplan.com/AF_"],
+        :root a[href^="http://n.admagnet.net/"],
+        :root a[href^="http://connectlinking6.com/"],
+        :root a[href^="http://bestchickshere.com/"],
+        :root a[data-obtrack^="http://paid.outbrain.com/network/redir?"],
+        :root a[href^="http://www.streamtunerhd.com/signup?"],
+        :root #ssmiwdiv[jsdisplay],
+        :root a[href^="//awejmp.com/"],
+        :root a[href^="http://www.getyourguide.com/?partner_id="],
+        :root [onclick^="window.open('https://www.brazzersnetwork.com/landing/"],
+        :root .plistaList > .itemLinkPET,
+        :root a[href^="http://mgid.com/"],
+        :root a[href^="http://adultfriendfinder.com/p/register.cgi?pid="],
+        :root a[href*="a2g-secure.com"],
+        :root a[href^="http://espn.zlbu.net/"],
+        :root a[data-redirect^="this.href='http://paid.outbrain.com/network/redir?"],
+        :root a[href^="http://k2s.cc/pr/"],
+        :root p[id^="div-gpt-ad-"],
+        :root #assetsListings[style="display: block;"],
+        :root [onclick^="window.open('window.open('//delivery.trafficfabrik.com/"],
+        :root a[href^="https://www.financeads.net/tc.php?"],
+        :root [lazy-ad="top_banner"],
+        :root #rhs_block .mod > .gws-local-hotels__booking-module,
+        :root a[href^="http://adrunnr.com/"],
+        :root [lazy-ad="leftthin_banner"],
+        :root a[href^="http://go.ad2up.com/"],
+        :root [id*="MarketGid"],
+        :root [id^="bunyad_ads_"],
+        :root a[href^="http://www.accuserveadsystem.com/accuserve-go.php?"],
+        :root a[href^="http://c.ketads.com/"],
+        :root a[href^="http://6kup12tgxx.com/"],
+        :root a[target="_blank"][onmousedown="this.href^='http://paid.outbrain.com/network/redir?"],
+        :root #tads + div + .c,
+        :root a[href^="https://control.trafficfabrik.com/"],
+        :root a[href^="http://hd-plugins.com/download/"],
+        :root a[href^="//voyeurhit.com/cs/"],
+        :root a[href^="http://y1jxiqds7v.com/"],
+        :root a[href^="http://www.afgr3.com/"],
+        :root [ad-id^="googlead"],
+        :root a[href^="https://topoffers.com/"][href*="/?pid="],
+        :root a[href^="http://vinfdv6b4j.com/"],
+        :root a[href^="http://bonusfapturbo.nmvsite.com/"],
+        :root DFP-AD,
+        :root a[href^="//www.mgid.com/"],
+        :root div[id^="ad-div-"],
+        :root #center_col > div[style="font-size:14px;margin-right:0;min-height:5px"] > div[style="font-size:14px;margin:0 4px;padding:1px 5px;background:#fff8e7"],
+        :root a[href^="http://track.affiliatenetwork.co.za/"],
+        :root a[data-redirect^="http://paid.outbrain.com/network/redir?"],
+        :root .jobs-information-call-to-action + .jobs-information-call-to-action div[class$="_item"],
+        :root a[href^="http://servicegetbook.net/"],
+        :root a[href^="http://cinema.friendscout24.de?"],
+        :root [lazy-ad="lefttop_banner"],
+        :root .__y_inner > .__y_item,
+        :root a[href^="https://secure.cbdpure.com/aff/"],
+        :root a[href^="https://bullads.net/get/"],
+        :root AMP-AD,
+        :root a[href^="http://adclick.g.doubleclick.net/"],
+        :root #center_col > #resultStats + div[style="border:1px solid #dedede;margin-bottom:11px;padding:5px 7px 5px 6px"],
+        :root a[href^="https://track.themadtrcker.com/"],
+        :root a[href^="http://yads.zedo.com/"],
+        :root #mbEnd[cellspacing="0"][cellpadding="0"],
+        :root AD-SLOT,
+        :root div[class^="lifeOnwerAd"],
+        :root a[data-oburl^="http://paid.outbrain.com/network/redir?"],
+        :root a[href^="http://dwn.pushtraffic.net/"],
+        :root a[href$="/vghd.shtml"],
+        :root a[href^="https://redirect.ero-advertising.com/"],
+        :root [href^="https://maskip.co/"],
+        :root div[data-subscript="Advertising"],
+        :root .widget-pane-section-result[data-result-ad-type],
+        :root a[href^="http://ffxitrack.com/"],
+        :root #center_col > #main > .dfrd > .mnr-c > .c._oc._zs,
+        :root a[href^="http://t.mdn2015x2.com/"],
+        :root a[href^="http://b.bestcompleteusa.info/"],
+        :root .trc_rbox_div .syndicatedItemUB,
+        :root a[href^="http://www.myvpn.pro/"],
+        :root a[href^="http://hyperies.info/"],
+        :root a[href^="//www.pd-news.com/"],
+        :root .trc_rbox .syndicatedItem,
+        :root a[href^="https://bnsjb1ab1e.com/"],
+        :root a[href^="http://pwrads.net/"],
+        :root div[class^="adpubs-"],
+        :root #mn div[style="position:relative"] > #center_col > div > ._dPg,
+        :root .rhsvw[style="background-color:#fff;margin:0 0 14px;padding-bottom:1px;padding-top:1px;"],
+        :root a[href^="http://www.pinkvisualpad.com/?revid="],
+        :root a[href^="//porngames.adult/?SID="],
+        :root #main-content > [style="padding:10px 0 0 0 !important;"],
+        :root a[href^="http://www.webtrackerplus.com/"],
+        :root .GJJKPX2N1 > .GJJKPX2M1 > .GJJKPX2P4,
+        :root #center_col > #taw > #tvcap > .cu-container > .commercial-unit-desktop-top,
+        :root a[href^="http://centertrust.xyz/"],
+        :root .ob_container .item-container-obpd,
+        :root a[href^="https://intrev.co/"],
+        :root a[href^="http://record.sportsbetaffiliates.com.au/"],
+        :root #topstuff > #tads,
+        :root .mw > #rcnt > #center_col > #taw > #tvcap > .c,
+        :root div[id^="google_ads_iframe_"],
+        :root a[href^="http://www.pheedo.com/"],
+        :root a[href^="http://www.affiliates1128.com/processing/"],
+        :root .vi-lb-placeholder[title="ADVERTISEMENT"],
+        :root a[href^="http://goldmoney.com/?gmrefcode="],
+        :root a[href^="http://adexprt.me/"],
+        :root a[href^="http://papi.mynativeplatform.com:80/pub2/"],
+        :root LEADERBOARD-AD,
+        :root #mn #center_col > div > h2.spon:first-child + ol:last-child,
+        :root a[href^="https://bongacams2.com/track?"],
+        :root a[href^="//zenhppyad.com/"],
+        :root .gbfwa > div[class$="_item"],
+        :root a[href^="http://taboola-"][href*="/redirect.php?app.type="],
+        :root .mw > #rcnt > #center_col > #taw > .c,
+        :root a[href^="http://www.menaon.com/installs/"],
+        :root .commercial-unit-mobile-top .jackpot-main-content-container > .UpgKEd + .nZZLFc > .vci,
+        :root a[href^="http://api.content.ad/"],
+        :root a[href^="http://secure.signup-page.com/"],
+        :root a[href*=".clkcln.com/"],
+        :root .commercial-unit-desktop-rhs > .iKidV > .Ee92ae + .P2mpm + .hp3sk,
+        :root a[href^="http://prochina.space/"],
+        :root a[href^="http://www.uniblue.com/cm/"],
+        :root a[data-redirect^="http://click.plista.com/pets"],
+        :root #rhs_block > script + .c._oc._Ve.rhsvw,
+        :root .rscontainer > .ellip,
+        :root div[itemtype="http://www.schema.org/WPAdBlock"],
+        :root .__zinit .__y_item,
+        :root .ch[onclick="ga(this,event)"],
+        :root a[href^="http://track.incognitovpn.com/"],
+        :root a[href^="http://click.guamwnvgashbkashawhgkhahshmashcas.pw/"],
+        :root .__ywl .__y_item,
+        :root a[href^="http://track.trkvluum.com/"],
+        :root a[href*="/adrotate-out.php?"],
+        :root [src^="/Redirect.a2b?"],
+        :root a[href*=".clksite.com/"],
+        :root #center_col > #resultStats + #tads,
+        :root .__yinit .__y_item,
+        :root .ra[align="left"][width="30%"],
+        :root a[href^="https://trackjs.com/?utm_source"],
+        :root AFS-AD,
+        :root #cnt #center_col > #res > #topstuff > .ts,
+        :root #cnt #center_col > #taw > #tvcap > .c._oc._Lp,
+        :root .trc_rbox_div a[target="_blank"][href^="http://tab"],
+        :root .GKJYXHBF2 > .GKJYXHBE2 > .GKJYXHBH5,
+        :root .trc_rbox_border_elm .syndicatedItem,
+        :root a[href^="http://www.firstclass-download.com/"],
+        :root a[href*=".trust.zone"],
+        :root a[href*="googleme.eu"],
+        :root .mod > ._jH + .rscontainer,
+        :root .GFYY1SVD2 > .GFYY1SVC2 > .GFYY1SVF5,
+        :root a[href^="https://dcs.adgear.com/clicks/"],
+        :root a[data-oburl^="https://paid.outbrain.com/network/redir?"],
+        :root a[href^="http://affiliates.score-affiliates.com/"],
+        :root ADS-RIGHT,
+        :root a[href^="https://betway.com/"][href*="&a="],
+        :root a[href^="http://rekoverr.com/"],
+        :root #rhswrapper > #rhssection[border="0"][bgcolor="#ffffff"],
+        :root .Mpopup + #Mad > #MadZone,
+        :root a[href^="http://landingpagegenius.com/"],
+        :root a[href^="https://www.adxtro.com/"],
+        :root a[href^="http://paid.outbrain.com/network/redir?"],
+        :root a[href^="http://easydownload4you.com/"],
+        :root #rhs_block > #mbEnd,
+        :root #center_col > #\5f Emc,
+        :root div[id^="dfp-ad-"],
+        :root .GB3L-QEDGY .GB3L-QEDF- > .GB3L-QEDE-,
+        :root #rhs_block .mod > .luhb-div > div[data-async-type="updateHotelBookingModule"],
+        :root a[href^="http://ads2.williamhill.com/redirect.aspx?"],
+        :root iframe[src^="http://static.mozo.com.au/strips/"],
+        :root a[href^="https://www.spyoff.com/"],
+        :root AD-TRIPLE-BOX,
+        :root input[onclick^="window.open('http://www.FriendlyDuck.com/"],
+        :root a[href^="//z6naousb.com/"],
+        :root .rc-cta[data-target],
+        :root #rhs_block > .ts[cellspacing="0"][cellpadding="0"][style="padding:0"],
+        :root .GFYY1SVE2 > .GFYY1SVD2 > .GFYY1SVG5,
+        :root #flowplayer > div[style="position: absolute; width: 300px; height: 275px; left: 222.5px; top: 85px; z-index: 999;"],
+        :root #header + #content > #left > #rlblock_left,
+        :root a[href^="http://www.seekbang.com/cs/"],
+        :root a[href^="http://syndication.exoclick.com/"],
+        :root a[href^="http://bluehost.com/track/"],
+        :root a[href^="https://squren.com/rotator/?atomid="],
+        :root #resultspanel > #topads,
+        :root a[href^="http://cwcams.com/landing/click/"],
+        :root a[href^="https://watchmygirlfriend.tv/"],
+        :root .nrelate .nr_partner,
+        :root #center_col > #resultStats + #tads + #res + #tads,
+        :root .trc_related_container div[data-item-syndicated="true"],
+        :root a[href^="//medleyads.com/spot/"],
+        :root a[href*="mfroute.com/"],
+        :root a[href^="http://tezfiles.com/pr/"],
+        :root a[href^="http://t.wowtrk.com/"],
+        :root a[href^="http://adprovider.adlure.net/"],
+        :root a[href^="https://porngames.adult/?SID="],
+        :root #\5f _admvnlb_modal_container,
+        :root a[href^="http://adf.ly/?id="],
+        :root #center_col > #taw > #tvcap > .rscontainer,
+        :root #rhs_block > ol > .rhsvw > .kp-blk > .xpdopen > ._OKe > ol > ._DJe > .luhb-div,
+        :root a[href^="http://linksnappy.com/?ref="],
+        :root #main_col > #center_col div[style="font-size:14px;margin:0 4px;padding:1px 5px;background:#fff7ed"],
+        :root a[href^="http://webtrackerplus.com/"],
+        :root a[href^="http://clickandjoinyourgirl.com/"],
+        :root #center_col > #res > #topstuff + #search > div > #ires > #rso > #flun,
+        :root a[href^="http://www.sex.com/pics/?utm_"],
+        :root a[href^="http://vo2.qrlsx.com/"],
+        :root a[href^="http://engine.newsmaxfeednetwork.com/"],
+        :root a[href^="http://ad.yieldmanager.com/"],
+        :root a[href^="http://www.plus500.com/?id="],
+        :root #flowplayer > div[style="z-index: 208; position: absolute; width: 300px; height: 275px; left: 222.5px; top: 85px;"],
+        :root a[href^="http://ddownload39.club/"],
+        :root a[href^="http://n217adserv.com/"],
+        :root a[href^="//4c7og3qcob.com/"],
+        :root a[href*="emprestimo.eu"] {
+            display: none !important;
+        }
+    </style>
+    <link href="https://ucarecdn.com" rel="preconnect" crossorigin="true" data-react-helmet="true">
+    <link rel="dns-prefetch" href="https://ucarecdn.com" data-react-helmet="true">
+    <meta property="og:locale" content="en_US" data-react-helmet="true">
+    <meta property="og:site_name" content="Yellow Cake" data-react-helmet="true">
+    <meta name="twitter:description" content="A starter project for creating lightning-fast websites with Gatsby v2 Netlify CMS v2 and Uploadcare media library." data-react-helmet="true">
+    <meta name="twitter:title" content="Yellow Cake" data-react-helmet="true">
+    <meta name="twitter:image" content="https://ucarecdn.com/fcc8d148-a9a8-42ee-a793-0f12b1437f61/" data-react-helmet="true">
+    <meta property="og:image:secure_url" content="https://ucarecdn.com/fcc8d148-a9a8-42ee-a793-0f12b1437f61/" data-react-helmet="true">
+    <meta property="og:image" content="https://ucarecdn.com/fcc8d148-a9a8-42ee-a793-0f12b1437f61/" data-react-helmet="true">
+    <meta name="twitter:card" content="https://ucarecdn.com/fcc8d148-a9a8-42ee-a793-0f12b1437f61/" data-react-helmet="true">
+    <script async="true" src="https://www.googletagmanager.com/gtag/js?id=UA-133175780-1" data-react-helmet="true"></script>
+    <script data-react-helmet="true">
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-133175780-1');
+    </script>
+    <meta property="og:title" content="Tour Listing" data-react-helmet="true">
+    <meta name="description" content="Amazing tours &amp; activities throughout Costa Rica." data-react-helmet="true">
+    <meta property="og:description" content="Amazing tours &amp; activities throughout Costa Rica." data-react-helmet="true">
+</head>
+
+<body>
+    <noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript>
+    <div id="___gatsby">
+        <div tabindex="-1" role="group" style="outline: none;">
+            
+            <nav class="Nav ">
+                <div class="Nav--Container container">
+                    <a href="/">
+                        <div class="Logo" style="background-image: url(&quot;/images/logo.svg&quot;);"></div>
+                    </a>
+                    <div class="Nav--Links"><a class="NavLink  undefined" href="/">Home</a><a aria-current="page" class="NavLink active undefined" href="/tours/">Tours</a><a class="NavLink  undefined" href="/search">Search all tours</a>
+                        <div class="Nav--Group "><span class="NavLink Nav--GroupParent ">Blog</span>
+                            <div class="Nav--GroupLinks"><a class="NavLink  Nav--GroupLink" href="/blog/">All Posts</a><a class="NavLink  Nav--GroupLink" href="/post-categories/news/">News</a><a class="NavLink  Nav--GroupLink" href="/post-categories/updates/">Updates</a></div>
+                        </div>
+                    </div>
+                    <button class="Button-blank Nav--MenuButton">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="3" y1="12" x2="21" y2="12"></line>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <line x1="3" y1="18" x2="21" y2="18"></line>
+                        </svg>
+                    </button>
+                </div>
+            </nav>
+            <main class="Blog">
+                <div class="PageHeader relative ">
+                    <div class="BackgroundImage" style="background-image: url(&quot;https://ucarecdn.com/b6254577-26bf-4b79-aa9b-f3793e2aebdc/-/progressive/yes/-/format/auto/-/resize/10x/&quot;); background-size: cover;">
+                        <div class="LazyImage BackgroundImage absolute  faded" style="background-image: url(&quot;https://ucarecdn.com/b6254577-26bf-4b79-aa9b-f3793e2aebdc/-/progressive/yes/-/format/auto/-/resize/2000x/&quot;); background-size: cover;"></div>
+                    </div>
+                    <div class="container relative">
+                        <h1 class="PageHeader--Title">Tour Listing</h1>
+                        <div class="Content PageHeader--Subtitle">
+                            <p>Amazing tours &amp; activities throughout Costa Rica</p>
+                        </div>
+                    </div>
+                </div>
+                <section class="section thin">
+                    <div class="container">
+                        <div class="PostCategoriesNav"><a aria-current="page" class="NavLink" exact="true" href="/tours/">All Places</a><a exact="true" class="NavLink" href="/region/jaco/">Jaco</a><a exact="true" class="NavLink" href="/region/osa/">Osa</a>
+                            <input type="text" placeholder="Filter these..." value="">
+                        </div>
+                    </div>
+                </section>
+                <section class="section">
+                    <div class="container">
+                        <div class="PostSection">
+                            <div class="PostSection--Grid">
+                                <a class="PostCard " href="/tours/croc-mangrove-carara-park/">
+                                    <div class="PostCard--Image relative">
+                                        <div class="BackgroundImage absolute " style="background-image: url(&quot;https://www.adventuretourscostarica.com/images/made/images/tours/The_Crocodile_Tour/Costa_Rica_Crocodile_Tour_Jaco_Beach_Los_Suenos_Adventure_Tours5_350_250_c1.jpg&quot;); background-size: cover;"></div>
+                                    </div>
+                                    <div class="PostCard--Content">
+                                        <h3 class="PostCard--Title">Croc Mangrove &amp; Carara Park</h3>
+                                        <div class="PostCard--Category">Combo</div>
+                                        <div class="PostCard--Category">Price from $125</div>
+                                        <div class="PostCard--Excerpt">If you are looking for an all-inclusive day trip from San Jose, Jaco Beach, Los Suenos Resort, or Puntarenas filled with exotic wildlife in…</div>
+                                    </div>
+                                </a>
+                                <a class="PostCard " href="/tours/jungle-booze-cruise-new/">
+                                    <div class="PostCard--Image relative">
+                                        <div class="BackgroundImage absolute " style="background-image: url(&quot;https://www.adventuretourscostarica.com/images/made/images/mobile/4x4Safari-Mobile_320_250_c1.jpg&quot;); background-size: cover;"></div>
+                                    </div>
+                                    <div class="PostCard--Content">
+                                        <h3 class="PostCard--Title">Jungle Booze Cruise *New*</h3>
+                                        <div class="PostCard--Category">Rainforest, 4x4</div>
+                                        <div class="PostCard--Category">Price from $99</div>
+                                        <div class="PostCard--Excerpt">Climb aboard the Rainforest Adventure Safari 4x4 with your friends and family, grab an icy-cold beer from the cooler, and then just kick…</div>
+                                    </div>
+                                </a>
+                                <a class="PostCard " href="/tours/signature-rainforest-tour/">
+                                    <div class="PostCard--Image relative">
+                                        <div class="BackgroundImage absolute " style="background-image: url(&quot;https://www.adventuretourscostarica.com/images/made/images/mobile/Costa_Rica-Waterfall-Tours8_269_250_c1.jpg&quot;); background-size: cover;"></div>
+                                    </div>
+                                    <div class="PostCard--Content">
+                                        <h3 class="PostCard--Title">Signature Rainforest Tour</h3>
+                                        <div class="PostCard--Category">Rainforest, 4x4</div>
+                                        <div class="PostCard--Category">Price from $99</div>
+                                        <div class="PostCard--Excerpt">Our Signature Costa Rica Rainforest Tour combines our Rainforest Waterfall Tour with El Tour Del Campo – Have the best of it all!Waterfalls…</div>
+                                    </div>
+                                </a>
+                                <a class="PostCard " href="/tours/el-tour-del-campo/">
+                                    <div class="PostCard--Image relative">
+                                        <div class="BackgroundImage absolute " style="background-image: url(&quot;https://www.adventuretourscostarica.com/images/made/images/mobile/jaco-atv-tour-m_320_250_c1.jpg&quot;); background-size: cover;"></div>
+                                    </div>
+                                    <div class="PostCard--Content">
+                                        <h3 class="PostCard--Title">El Tour Del Campo</h3>
+                                        <div class="PostCard--Category">Rainforest, 4x4</div>
+                                        <div class="PostCard--Category">Price from $79</div>
+                                        <div class="PostCard--Excerpt">Our Rainforest Tour Del Campo begins with an ascent through secondary rainforest, crossing over creeks, passing a beautiful rolling…</div>
+                                    </div>
+                                </a>
+                                <a class="PostCard " href="/tours/rainforest-sunset-tour/">
+                                    <div class="PostCard--Image relative">
+                                        <div class="BackgroundImage absolute " style="background-image: url(&quot;https://www.adventuretourscostarica.com/images/made/images/mobile/Jaco-Rainforest-Sunset-tours_350_250_c1.jpg&quot;); background-size: cover;"></div>
+                                    </div>
+                                    <div class="PostCard--Content">
+                                        <h3 class="PostCard--Title">Rainforest Sunset Tour</h3>
+                                        <div class="PostCard--Category">Rainforest, 4x4</div>
+                                        <div class="PostCard--Category">Price from $49</div>
+                                        <div class="PostCard--Excerpt">One of the most unique ways to experience a Costa Rican sunset is from the surrounding rainforest that climbs thousands of feet above her…</div>
+                                    </div>
+                                </a>
+                                <a class="PostCard " href="/tours/rainforest-waterfall-tour/">
+                                    <div class="PostCard--Image relative">
+                                        <div class="BackgroundImage absolute " style="background-image: url(&quot;https://www.adventuretourscostarica.com/images/made/images/mobile/atv-waterfall-tour-m_320_250_c1.jpg&quot;); background-size: cover;"></div>
+                                    </div>
+                                    <div class="PostCard--Content">
+                                        <h3 class="PostCard--Title">Rainforest Waterfall Tour</h3>
+                                        <div class="PostCard--Category">Rainforest, 4x4</div>
+                                        <div class="PostCard--Category">Price from $79</div>
+                                        <div class="PostCard--Excerpt">Our Costa Rica Rainforest Waterfall Tour will get you off the beaten path, up in to the Costa Rica rainforest, down under the lush green…</div>
+                                    </div>
+                                </a>
+                                <a class="PostCard " href="/tours/jaco-canopy-tour/">
+                                    <div class="PostCard--Image relative">
+                                        <div class="BackgroundImage absolute " style="background-image: url(&quot;https://www.adventuretourscostarica.com/images/made/images/mobile/zipline-canopy-tours_350_250_c1.jpg&quot;); background-size: cover;"></div>
+                                    </div>
+                                    <div class="PostCard--Content">
+                                        <h3 class="PostCard--Title">Jaco Canopy Tour</h3>
+                                        <div class="PostCard--Category">Canopy, Adventure</div>
+                                        <div class="PostCard--Category">Price from $59</div>
+                                        <div class="PostCard--Excerpt">The Jaco Canopy tour is not for the timid. This intermediate to advanced Jaco zip lining tour is recommended for experienced thrill-seekers…</div>
+                                    </div>
+                                </a>
+                                <a class="PostCard " href="/tours/los-suenos-canopy-tour/">
+                                    <div class="PostCard--Image relative">
+                                        <div class="BackgroundImage absolute " style="background-image: url(&quot;https://www.adventuretourscostarica.com/images/made/images/mobile/los-suenos-canopy_m_320_250_c1.jpg&quot;); background-size: cover;"></div>
+                                    </div>
+                                    <div class="PostCard--Content">
+                                        <h3 class="PostCard--Title">Los Suenos Canopy Tour</h3>
+                                        <div class="PostCard--Category">Canopy, Adventure</div>
+                                        <div class="PostCard--Category">Price from $65</div>
+                                        <div class="PostCard--Excerpt">One of the most popular tours in Costa Rica, the Los Suenos Canopy Zip line adventure gives you the chance to fly through the canopy of the…</div>
+                                    </div>
+                                </a>
+                                <a class="PostCard " href="/tours/full-day-tour-del-rey/">
+                                    <div class="PostCard--Image relative">
+                                        <div class="BackgroundImage absolute " style="background-image: url(&quot;https://www.adventuretourscostarica.com/images/made/images/mobile/Costa-Rica-Tours-Mobile_320_250_c1.jpg&quot;); background-size: cover;"></div>
+                                    </div>
+                                    <div class="PostCard--Content">
+                                        <h3 class="PostCard--Title">Full Day Tour del Rey</h3>
+                                        <div class="PostCard--Category">Adventure, Atv</div>
+                                        <div class="PostCard--Category">Price from $189</div>
+                                        <div class="PostCard--Excerpt">If you want the private, VIP, all-included, full-day, beach to bluff tour of the Central Pacific coast - look no further.The Tour del Rey…</div>
+                                    </div>
+                                </a>
+                                <a class="PostCard " href="/tours/3-hour-tourrrx-de-la-paz/">
+                                    <div class="PostCard--Image relative">
+                                        <div class="BackgroundImage absolute " style="background-image: url(&quot;https://www.adventuretourscostarica.com/images/made/images/mobile/costa-rica-atv--tours-mobile_320_250_c1.jpg&quot;); background-size: cover;"></div>
+                                    </div>
+                                    <div class="PostCard--Content">
+                                        <h3 class="PostCard--Title">3-Hour Tourrrx de la Paz</h3>
+                                        <div class="PostCard--Category">Adventure, Atv</div>
+                                        <div class="PostCard--Category">Price from $95</div>
+                                        <div class="PostCard--Excerpt">Exciting Terrain, spectacular views and an exhilarating trip to the Pura Vida waterfall combine for our crowd-pleasing, 3-Hour Tour de la…</div>
+                                    </div>
+                                </a>
+                                <a class="PostCard " href="/tours/4-hour-signure-tour/">
+                                    <div class="PostCard--Image relative">
+                                        <div class="BackgroundImage absolute " style="background-image: url(&quot;https://www.adventuretourscostarica.com/images/made/images/mobile/ban2-m_320_250_c1.jpg&quot;); background-size: cover;"></div>
+                                    </div>
+                                    <div class="PostCard--Content">
+                                        <h3 class="PostCard--Title">4-Hour Signure Tour</h3>
+                                        <div class="PostCard--Category">Adventure, Atv</div>
+                                        <div class="PostCard--Category">Price from $120</div>
+                                        <div class="PostCard--Excerpt">With spectacular views, exciting terrain, a delicious, authentic Costa Rican meal and a trip to an exciting, 30 foot jump and swim waterfall…</div>
+                                    </div>
+                                </a>
+                                <a class="PostCard " href="/tours/manuel-antonio-monkeys/">
+                                    <div class="PostCard--Image relative">
+                                        <div class="BackgroundImage absolute " style="background-image: url(&quot;https://www.adventuretourscostarica.com/images/made/images/tours/Manuel_Antonio_National_Park/manuel-antonio-park-monkey_350_250_c1.jpg&quot;); background-size: cover;"></div>
+                                    </div>
+                                    <div class="PostCard--Content">
+                                        <h3 class="PostCard--Title">Manuel Antonio &amp; Monkeys</h3>
+                                        <div class="PostCard--Category">Combo</div>
+                                        <div class="PostCard--Category">Price from $159</div>
+                                        <div class="PostCard--Excerpt">With a 7 am pickup and approximate 5 pm return, this all-inclusive combo tour takes you to one of Costa Rica’s most bio-diverse nature…</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="taCenter">
+                                <button class="button">Load More</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+    <script src="/commons.js"></script>
+</body>
+
+</html>
