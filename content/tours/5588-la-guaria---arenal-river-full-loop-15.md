@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5588
-date: "Sat Jul 20 2019 15:43:23 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 17:25:12 GMT-0600 (Central Standard Time)"
 title: "La Guaria - Arenal River Full Loop"
 categories: 
   - category: Biking

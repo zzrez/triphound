@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5601
-date: "Sat Jul 20 2019 15:43:25 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 17:25:14 GMT-0600 (Central Standard Time)"
 title: "Sonafluca Family Ride"
 categories: 
   - category: Biking

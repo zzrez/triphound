@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5582
-date: "Sat Jul 20 2019 15:43:23 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 17:25:12 GMT-0600 (Central Standard Time)"
 title: "Full Day Combo Tour With Hot Springs"
 categories: 
   - category: Combo

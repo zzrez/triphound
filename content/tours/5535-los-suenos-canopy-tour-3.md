@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5535
-date: "Sat Jul 20 2019 15:43:15 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 17:25:05 GMT-0600 (Central Standard Time)"
 title: "Los Suenos Canopy Tour"
 categories: 
   - category: Canopy

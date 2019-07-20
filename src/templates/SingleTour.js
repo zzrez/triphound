@@ -18,6 +18,7 @@ export const SingleTourTemplate = ({
   main_photo,
   includes,
   bring,
+  tags,
   body,
   nextPostURL,
   prevPostURL,
@@ -76,6 +77,12 @@ export const SingleTourTemplate = ({
               Id{id}
           </h4>
           <img src={main_photo} alt={title} />
+
+         
+            <div>
+              tags: {tags}
+            </div>
+
 
           {start_time_text && (
             <div>
@@ -167,6 +174,7 @@ export const pageQuery = graphql`
         main_photo
         includes
         bring
+        tags
         categories {
           category
         }

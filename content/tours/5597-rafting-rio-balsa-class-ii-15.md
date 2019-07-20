@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5597
-date: "Sat Jul 20 2019 15:43:25 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 17:25:13 GMT-0600 (Central Standard Time)"
 title: "Rafting Rio Balsa Class II"
 categories: 
   - category: Rafting

@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5534
-date: "Sat Jul 20 2019 15:43:15 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 17:25:05 GMT-0600 (Central Standard Time)"
 title: "Jaco Canopy Tour"
 categories: 
   - category: Canopy

@@ -9,7 +9,7 @@
 let supplier_id
 let limit
 //supplier_id = 3
-limit = 120
+limit = 250
 //! End
 
 if (supplier_id) {
@@ -322,7 +322,7 @@ mdAll = frontMatter+description
                     console.log(`(${i+1} tour pages created)`)
                     console.log(`Regions (allMeetings array):-`)
                     console.log(allMeetings)
-                    console.log(`All categories (allCats array):-`)
+                    console.log(`${allCats.length} categories (allCats array):-`)
                     console.log(allCats)
                     //console.log(`result.length = ${result.length}`)
 

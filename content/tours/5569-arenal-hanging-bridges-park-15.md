@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5569
-date: "Sat Jul 20 2019 15:43:21 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 17:25:10 GMT-0600 (Central Standard Time)"
 title: "Arenal Hanging Bridges Park"
 categories: 
   - category: Hiking

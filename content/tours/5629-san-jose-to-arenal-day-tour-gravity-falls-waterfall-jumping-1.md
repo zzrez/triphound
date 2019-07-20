@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5629
-date: "Sat Jul 20 2019 15:43:29 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 17:25:19 GMT-0600 (Central Standard Time)"
 title: "San Jose to Arenal Day Tour Gravity Falls Waterfall Jumping"
 categories: 
   - category: Adventure

@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5625
-date: "Sat Jul 20 2019 15:43:29 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 17:25:18 GMT-0600 (Central Standard Time)"
 title: "Canyoning in the Lost Canyon Private Tour"
 categories: 
   - category: Adventure

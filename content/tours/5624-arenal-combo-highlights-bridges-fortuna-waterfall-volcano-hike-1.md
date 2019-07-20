@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5624
-date: "Sat Jul 20 2019 15:43:28 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 17:25:18 GMT-0600 (Central Standard Time)"
 title: "Arenal COMBO Highlights Bridges Fortuna Waterfall Volcano Hike"
 categories: 
   - category: Adventure

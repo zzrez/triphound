@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5615
-date: "Sat Jul 20 2019 15:43:27 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 17:25:17 GMT-0600 (Central Standard Time)"
 title: "Monteverde Rafting Tenorio River Class 3-4"
 categories: 
   - category: Adventure

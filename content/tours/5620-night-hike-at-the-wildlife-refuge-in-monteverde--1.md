@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5620
-date: "Sat Jul 20 2019 15:43:28 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 17:25:17 GMT-0600 (Central Standard Time)"
 title: "Night Hike at the Wildlife Refuge in Monteverde "
 categories: 
   - category: Adventure

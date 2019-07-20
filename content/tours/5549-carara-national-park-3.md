@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5549
-date: "Sat Jul 20 2019 15:43:17 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 17:25:07 GMT-0600 (Central Standard Time)"
 title: "Carara National Park"
 categories: 
   - category: Nature
