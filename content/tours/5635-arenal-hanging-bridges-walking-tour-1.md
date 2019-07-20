@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5635
-date: "Tue Jul 16 2019 19:31:41 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 15:43:30 GMT-0600 (Central Standard Time)"
 title: "Arenal Hanging Bridges Walking Tour"
 categories: 
   - category: Adventure

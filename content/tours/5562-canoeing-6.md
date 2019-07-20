@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5562
-date: "Tue Jul 16 2019 19:31:31 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 15:43:19 GMT-0600 (Central Standard Time)"
 title: "Canoeing"
 categories: 
   - category: Default

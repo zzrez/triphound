@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5618
-date: "Tue Jul 16 2019 19:31:39 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 15:43:28 GMT-0600 (Central Standard Time)"
 title: "La Fortuna Arenal to Monteverde Mountain Biking"
 categories: 
   - category: Adventure

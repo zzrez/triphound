@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5616
-date: "Tue Jul 16 2019 19:31:39 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 15:43:27 GMT-0600 (Central Standard Time)"
 title: "Monteverde Day Tour Safari Float Tenorio River"
 categories: 
   - category: Adventure
@@ -40,7 +40,7 @@ bring: "*   Camera
 *   Sunscreen"
 advice: "Read our FAQS for Rafting in Costa Rica There are extra transport charge for hotels outside of our normal pick-up zone. Have a look at our Adventure Waiver if you have questions about our Costa Rica adventure tour policies.
 
-For reasons beyond our control (climate, river levels, etc.), we may change to a more-suitable tour with an equal or similar adventure-appeal or offer other tour options so you don\`t miss out on a fun day in Costa Rica. We reserve the right to cancel a trip due to unfavorable conditions & will only run a tour according to our policies. Full refund is given if (on rare occasion) no tour is run. This adventure involves some inherent risk and physical exertion, so you must be in good physical condition!"
+For reasons beyond our control (climate, river levels, etc.), we may change to a more-suitable tour with an equal or similar adventure-appeal or offer other tour options so you don't miss out on a fun day in Costa Rica. We reserve the right to cancel a trip due to unfavorable conditions & will only run a tour according to our policies. Full refund is given if (on rare occasion) no tour is run. This adventure involves some inherent risk and physical exertion, so you must be in good physical condition!"
 accom: ""
 ---
 Monteverde to Guanacaste Day Tour Safari Float in Tenorio

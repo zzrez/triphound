@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5568
-date: "Tue Jul 16 2019 19:31:32 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 15:43:21 GMT-0600 (Central Standard Time)"
 title: "1968 Single and Double Track Bike Tour"
 categories: 
   - category: Biking

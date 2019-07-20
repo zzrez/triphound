@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5630
-date: "Tue Jul 16 2019 19:31:40 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 15:43:29 GMT-0600 (Central Standard Time)"
 title: "Samara to Monteverde Rafting Tenorio River Class 3 and 4"
 categories: 
   - category: Adventure

@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5625
-date: "Tue Jul 16 2019 19:31:40 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 15:43:29 GMT-0600 (Central Standard Time)"
 title: "Canyoning in the Lost Canyon Private Tour"
 categories: 
   - category: Adventure
@@ -34,7 +34,7 @@ excludes: ""
 bring: "*   Secure shoes; clothes to get wet in; a change of clothes for after the tour; extra money to buy a t-shirt or photos of your tour; appetite for adventure"
 advice: "Our exclusive, PRIVATE trips include private transport to and from your hotel, you get our most-experienced, top bilingual guides to accompany you, personalized choice of food options, no sense of rushing along - you can take your time, plus you get your photos included. Please let us know if you have any dietary restrictions like gluten-free, vegetarian or kosher, etc. and we will try to accommodate you to the best of our abilities.
 
-For reasons beyond our control (climate, river levels, etc.), we may change to a more-suitable tour with an equal or similar adventure-appeal or offer other tour options so you don\`t miss out on a fun day in Costa Rica. We reserve the right to cancel a trip due to unfavorable conditions & will only run a tour according to our policies. Full refund is given if (on rare occasion) no tour is run. This adventure involves some inherent risk and physical exertion, so you must be in good physical condition!While the recommended weight limit for our canyoneering (rappelling) tour and most zip line tours is 220 lbs (100 kilos) it’s more about waist size than weight as the ropes (canyoneering) and cables (zip lines) are rated for well over 220 lbs but the maximum waist size for the harnesses used for these tours is 42 inches. So if you are a little over 220 lbs but your waist is less than 42 inches you can still do these tours."
+For reasons beyond our control (climate, river levels, etc.), we may change to a more-suitable tour with an equal or similar adventure-appeal or offer other tour options so you don't miss out on a fun day in Costa Rica. We reserve the right to cancel a trip due to unfavorable conditions & will only run a tour according to our policies. Full refund is given if (on rare occasion) no tour is run. This adventure involves some inherent risk and physical exertion, so you must be in good physical condition!While the recommended weight limit for our canyoneering (rappelling) tour and most zip line tours is 220 lbs (100 kilos) it’s more about waist size than weight as the ropes (canyoneering) and cables (zip lines) are rated for well over 220 lbs but the maximum waist size for the harnesses used for these tours is 42 inches. So if you are a little over 220 lbs but your waist is less than 42 inches you can still do these tours."
 accom: ""
 ---
 Canyoning in the Lost Canyon - Private Tour

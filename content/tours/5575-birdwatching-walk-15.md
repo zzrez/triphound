@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5575
-date: "Tue Jul 16 2019 19:31:33 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 15:43:22 GMT-0600 (Central Standard Time)"
 title: "Birdwatching Walk"
 categories: 
   - category: Adventure

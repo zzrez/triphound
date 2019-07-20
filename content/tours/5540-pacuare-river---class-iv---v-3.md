@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5540
-date: "Tue Jul 16 2019 19:31:28 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 15:43:16 GMT-0600 (Central Standard Time)"
 title: "Pacuare River - Class IV & V"
 categories: 
   - category: Rafting

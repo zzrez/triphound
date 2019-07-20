@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5623
-date: "Tue Jul 16 2019 19:31:39 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 15:43:28 GMT-0600 (Central Standard Time)"
 title: "Arenal COMBO Costa Rica Whitewater Rafting and Ziplining "
 categories: 
   - category: Adventure
@@ -39,7 +39,7 @@ advice: "LOGISTICS:Our Arenal Combo Rafting-Ziplining departs at 9am from Downto
 
 Once you finish up rafting, we'll take you back toward La Fortuna (about 25 minutes ride) and have a delicious homemade lunch. After lunch, we will take you back to town and another van will take you straight to your Ecoglide Ziplining tour. Once at the Ziplining tour, you will be zipping along for an hour and 45 minutes tour and be back in your hotel between 5:00 to 5:30 pm.Have a look at our Adventure Waiver if you have questions about our Costa Rica adventure tour policies and this Costa Rica combo rafting ziplining tour.
 
-For reasons beyond our control (climate, river levels, etc.), we may change to a more-suitable tour with an equal or similar adventure-appeal or offer other tour options so you don\`t miss out on a fun day in Costa Rica. We reserve the right to cancel a trip due to unfavorable conditions & will only run a tour according to our policies. Full refund is given if (on rare occasion) no tour is run. This adventure involves some inherent risk and physical exertion, so you must be in good physical condition!While the recommended weight limit for our canyoneering (rappelling) tour and most zip line tours is 220 lbs (100 kilos) it’s more about waist size than weight as the ropes (canyoneering) and cables (zip lines) are rated for well over 220 lbs but the maximum waist size for the harnesses used for these tours is 42 inches. So if you are a little over 220 lbs but your waist is less than 42 inches you can still do these tours.NOTE: We have an extra transport charge for hotels outside of our normal pick-up"
+For reasons beyond our control (climate, river levels, etc.), we may change to a more-suitable tour with an equal or similar adventure-appeal or offer other tour options so you don't miss out on a fun day in Costa Rica. We reserve the right to cancel a trip due to unfavorable conditions & will only run a tour according to our policies. Full refund is given if (on rare occasion) no tour is run. This adventure involves some inherent risk and physical exertion, so you must be in good physical condition!While the recommended weight limit for our canyoneering (rappelling) tour and most zip line tours is 220 lbs (100 kilos) it’s more about waist size than weight as the ropes (canyoneering) and cables (zip lines) are rated for well over 220 lbs but the maximum waist size for the harnesses used for these tours is 42 inches. So if you are a little over 220 lbs but your waist is less than 42 inches you can still do these tours.NOTE: We have an extra transport charge for hotels outside of our normal pick-up"
 accom: ""
 ---
 Arenal Combo Tour: Class 2-3 Whitewater Rafting and Canopy Ziplining

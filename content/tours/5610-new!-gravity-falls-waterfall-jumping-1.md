@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5610
-date: "Tue Jul 16 2019 19:31:38 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 15:43:26 GMT-0600 (Central Standard Time)"
 title: "NEW! Gravity Falls Waterfall Jumping"
 categories: 
   - category: Adventure

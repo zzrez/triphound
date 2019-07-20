@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5620
-date: "Tue Jul 16 2019 19:31:39 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 15:43:28 GMT-0600 (Central Standard Time)"
 title: "Night Hike at the Wildlife Refuge in Monteverde "
 categories: 
   - category: Adventure
@@ -36,7 +36,7 @@ includes: "*   Transport
 excludes: ""
 bring: "*   6:00pm
 *   8:00pm"
-advice: "For events that could happen beyond our control we may change to a more-suitable tour with an equal or similar adventure-appeal or offer other tour options so you don\`t miss out on a fun day in Costa Rica. We reserve the right to cancel a trip due to unfavorable conditions & will only run a tour according to our policies. Full refund is given if (on rare occasion) no tour is run."
+advice: "For events that could happen beyond our control we may change to a more-suitable tour with an equal or similar adventure-appeal or offer other tour options so you don't miss out on a fun day in Costa Rica. We reserve the right to cancel a trip due to unfavorable conditions & will only run a tour according to our policies. Full refund is given if (on rare occasion) no tour is run."
 accom: ""
 ---
 Night Hike at The Wildlife Refuge of Monteverde

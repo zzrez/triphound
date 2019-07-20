@@ -76,7 +76,11 @@ const adjHtml = function(text) { //*to adjust html
         text = text.replace(/\s+/ig, ' ') //*replace white space with 1 space
         //text = text.replace(/\*/ig,"-")
         //text = text.replace(/%/ig,"")
-        text = text.replace(/"/ig,"%22")
+        text = text.replace(/"/ig,"%22;") //correct????
+        text = text.replace(/"/ig,"&#34;")
+        text = text.replace(/'/ig,"&#39;")
+        text = text.replace(/\\/ig,"") //may be temp correcting for scrape
+        text = text.replace(/`/ig,"&#39;") //may be temp correcting for scrape
     } else {
         text = ""
     }

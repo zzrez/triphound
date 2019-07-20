@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5640
-date: "Tue Jul 16 2019 19:31:41 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 15:43:31 GMT-0600 (Central Standard Time)"
 title: "Mountain Biking Arenal Volcano Lake Trail"
 categories: 
   - category: Adventure
@@ -33,7 +33,7 @@ excludes: ""
 bring: "*   Bike clothes or comfortable adventure clothing; secure shoes; sunscreen"
 advice: "Have a look at our Adventure Waiver if you have questions about our Costa Rica adventure tour policies.
 
-For reasons beyond our control (climate, river levels, etc.), we may change to a more-suitable tour with an equal or similar adventure-appeal or offer other tour options so you don\`t miss out on a fun day in Costa Rica. We reserve the right to cancel a trip due to unfavorable conditions & will only run a tour according to our policies. Full refund is given if (on rare occasion) no tour is run. We pride ourselves in one of the most customer-friendly reservations policies in the market.This adventure involves some inherent risk and physical exertion, so you must be in good physical conditions!NOTE: We have an extra transport charge for hotels outside of our normal pick-up Zone 1. The pick-up areas are arranged as:
+For reasons beyond our control (climate, river levels, etc.), we may change to a more-suitable tour with an equal or similar adventure-appeal or offer other tour options so you don't miss out on a fun day in Costa Rica. We reserve the right to cancel a trip due to unfavorable conditions & will only run a tour according to our policies. Full refund is given if (on rare occasion) no tour is run. We pride ourselves in one of the most customer-friendly reservations policies in the market.This adventure involves some inherent risk and physical exertion, so you must be in good physical conditions!NOTE: We have an extra transport charge for hotels outside of our normal pick-up Zone 1. The pick-up areas are arranged as:
 
 ZONE 1: No extra charge from La Fortuna Downtown area and Desafio until Tabacon Hot Springs
 

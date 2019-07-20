@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5593
-date: "Tue Jul 16 2019 19:31:35 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 15:43:24 GMT-0600 (Central Standard Time)"
 title: "Mountain Bike La Guaria - One Day Adventure"
 categories: 
   - category: Biking

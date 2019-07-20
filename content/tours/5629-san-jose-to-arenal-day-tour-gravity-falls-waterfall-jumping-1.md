@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5629
-date: "Tue Jul 16 2019 19:31:40 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 15:43:29 GMT-0600 (Central Standard Time)"
 title: "San Jose to Arenal Day Tour Gravity Falls Waterfall Jumping"
 categories: 
   - category: Adventure
@@ -42,7 +42,7 @@ bring: "*   Clothes to get wet in
 *   a big sense of adventure."
 advice: "This tour is considered an extreme adventure and advisable for those who are athletic and physically fit. No experience necessary. There are different jump heights throughout the tour and paths in case you decide to skip a jump - but the idea is to push yourself to your limits on this Costa Rica extreme tour Gravity Falls!Have a look at our Adventure Waiver if you have questions about our Costa Rica adventure tour policies.
 
-If coming from San Jose, we can arrange this special expedition as a Desafio Adventure Connection where your journey is the adventure -- start in San Jose and stay in Arenal! Be sure to ask one of our Adventure Specialists to help you with your reservations.For reasons beyond our control (climate, river levels, etc.), we may change to a more-suitable tour with an equal or similar adventure-appeal or offer other tour options so you don\`t miss out on a fun day in Costa Rica. We reserve the right to cancel a trip due to unfavorable conditions & will only run a tour according to our policies. Full refund is given if (on rare occasion) no tour is run. This adventure involves some inherent risk and physical exertion, so you must be in good physical conditions!"
+If coming from San Jose, we can arrange this special expedition as a Desafio Adventure Connection where your journey is the adventure -- start in San Jose and stay in Arenal! Be sure to ask one of our Adventure Specialists to help you with your reservations.For reasons beyond our control (climate, river levels, etc.), we may change to a more-suitable tour with an equal or similar adventure-appeal or offer other tour options so you don't miss out on a fun day in Costa Rica. We reserve the right to cancel a trip due to unfavorable conditions & will only run a tour according to our policies. Full refund is given if (on rare occasion) no tour is run. This adventure involves some inherent risk and physical exertion, so you must be in good physical conditions!"
 accom: ""
 ---
 NEW!! San Jose Day Tour to Gravity Falls Waterfall Jumping: Costa Rica's Most EXTREME Tour -- Something New in Canyoning in Costa Rica as a one-day tour from San Jose

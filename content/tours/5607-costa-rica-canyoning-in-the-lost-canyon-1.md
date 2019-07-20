@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5607
-date: "Tue Jul 16 2019 19:31:37 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 15:43:26 GMT-0600 (Central Standard Time)"
 title: "Costa Rica Canyoning in the Lost Canyon"
 categories: 
   - category: Adventure

@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5574
-date: "Tue Jul 16 2019 19:31:32 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 15:43:22 GMT-0600 (Central Standard Time)"
 title: "Biking & Costa Rican Cultural Tour"
 categories: 
   - category: Combo

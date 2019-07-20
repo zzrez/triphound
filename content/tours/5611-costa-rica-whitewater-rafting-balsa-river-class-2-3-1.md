@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5611
-date: "Tue Jul 16 2019 19:31:38 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 15:43:27 GMT-0600 (Central Standard Time)"
 title: "Costa Rica Whitewater Rafting Balsa River Class 2-3"
 categories: 
   - category: Adventure

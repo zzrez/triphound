@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5537
-date: "Tue Jul 16 2019 19:31:28 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 15:43:15 GMT-0600 (Central Standard Time)"
 title: "Naranjo Rafting - Class IV"
 categories: 
   - category: Rafting

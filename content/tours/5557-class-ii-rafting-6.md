@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5557
-date: "Tue Jul 16 2019 19:31:30 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 15:43:18 GMT-0600 (Central Standard Time)"
 title: "Class II Rafting"
 categories: 
   - category: Default

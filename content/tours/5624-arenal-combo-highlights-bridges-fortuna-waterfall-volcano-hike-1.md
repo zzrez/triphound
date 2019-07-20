@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5624
-date: "Tue Jul 16 2019 19:31:39 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 15:43:28 GMT-0600 (Central Standard Time)"
 title: "Arenal COMBO Highlights Bridges Fortuna Waterfall Volcano Hike"
 categories: 
   - category: Adventure
@@ -47,7 +47,7 @@ bring: "*   Bug repellent
 *   Towel"
 advice: "Have a look at our Adventure Waiver if you have questions about our Costa Rica adventure tour policies.If you are looking for options for the best hiking and best hikes near San Jose, Tamarindo or Liberia, Costa Rica, be sure to check out our Hiking category.We are a company that prides itself in sound ecological and sustainable tourism practices. We adhere to Costa Rica National Park guidelines to stay on authorized paths and do not permit the extraction of plants or the feeding of wild animals.
 
-For reasons beyond our control (climate, river levels, etc.), we may change to a more-suitable tour with an equal or similar adventure-appeal or offer other tour options so you don\`t miss out on a fun day in Costa Rica. We reserve the right to cancel a trip due to unfavorable conditions & will only run a tour according to our policies. Full refund is given if (on rare occasion) no tour is run. This adventure involves some inherent risk and physical exertion, so you must be in good physical conditions! There may be times when the waterfall has a large flow of water and swimming in the pools at the base fo the waterfall, is not recommended, but the visit to the waterfall is still highly recommended.NOTE: We have an extra transport charge for hotels outside of our normal pick-up zone."
+For reasons beyond our control (climate, river levels, etc.), we may change to a more-suitable tour with an equal or similar adventure-appeal or offer other tour options so you don't miss out on a fun day in Costa Rica. We reserve the right to cancel a trip due to unfavorable conditions & will only run a tour according to our policies. Full refund is given if (on rare occasion) no tour is run. This adventure involves some inherent risk and physical exertion, so you must be in good physical conditions! There may be times when the waterfall has a large flow of water and swimming in the pools at the base fo the waterfall, is not recommended, but the visit to the waterfall is still highly recommended.NOTE: We have an extra transport charge for hotels outside of our normal pick-up zone."
 accom: ""
 ---
 Arenal COMBO Tour: Hanging Bridges, Volcano Hike, and La Fortuna Waterfall (includes lunch)

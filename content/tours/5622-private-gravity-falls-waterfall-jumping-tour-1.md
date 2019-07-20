@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5622
-date: "Tue Jul 16 2019 19:31:39 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 15:43:28 GMT-0600 (Central Standard Time)"
 title: "Private Gravity Falls Waterfall Jumping Tour"
 categories: 
   - category: Adventure

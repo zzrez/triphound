@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5594
-date: "Tue Jul 16 2019 19:31:35 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 15:43:24 GMT-0600 (Central Standard Time)"
 title: "Night Walk Nocturnal Life Experience."
 categories: 
   - category: Hiking

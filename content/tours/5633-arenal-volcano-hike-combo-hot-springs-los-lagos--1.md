@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5633
-date: "Tue Jul 16 2019 19:31:41 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 15:43:30 GMT-0600 (Central Standard Time)"
 title: "Arenal Volcano Hike COMBO Hot Springs Los Lagos "
 categories: 
   - category: Adventure
@@ -37,7 +37,7 @@ excludes: ""
 bring: "*   bug repellent; camera; binoculars; hiking boots or tennis shoes; rain gear; swimsuit"
 advice: "We are a company that prides itself in sound ecological and sustainable tourism practices. We adhere to Costa Rica National Park guidelines to stay on authorized paths and do not permit the extraction of plants or the feeding of wild animals.We have created these fun COMBO tours to help you economize time and money on your vacation - we will coordinate your tour pick-ups and drop-offs and in some COMBOs, you may have a short break back at your hotel to take a breather before the next tour. Please keep your itinerary with you so you are aware of your COMBO logistics.Have a look at our Adventure Waiver if you have questions about our Costa Rica adventure tour policies
 
-For reasons beyond our control (climate, river levels, etc.), we may change to a more-suitable tour with an equal or similar adventure-appeal or offer other tour options so you don\`t miss out on a fun day in Costa Rica. We reserve the right to cancel a trip due to unfavorable conditions & will only run a tour according to our policies. Full refund is given if (on rare occasion) no tour is run."
+For reasons beyond our control (climate, river levels, etc.), we may change to a more-suitable tour with an equal or similar adventure-appeal or offer other tour options so you don't miss out on a fun day in Costa Rica. We reserve the right to cancel a trip due to unfavorable conditions & will only run a tour according to our policies. Full refund is given if (on rare occasion) no tour is run."
 accom: ""
 ---
 Arenal Volcano National Park Hike and Los Lagos Hot Springs with Dinner

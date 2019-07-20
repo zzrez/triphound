@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5636
-date: "Tue Jul 16 2019 19:31:41 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 15:43:30 GMT-0600 (Central Standard Time)"
 title: "Rafting Tenorio River Class 3 and 4"
 categories: 
   - category: Adventure
@@ -34,7 +34,7 @@ excludes: ""
 bring: "*   Clothes to get wet in; secure shoes; change of clothes for after the tour; a little extra spending money in case you want to buy some beers and the photo CD of your tour; and a big smile"
 advice: "Extra transport charge for hotels outside of our normal pick-up zone. Please inquire to confirm hotel pick-up time and pricing. For Nosara or Punta Islita Beaches: extra charge $30.Extra $25 charge per person for pick-up/drop-off to hotel Dreams Las MareasHave a look at our Adventure Waiver if you have questions about our Costa Rica adventure tour policies.
 
-For reasons beyond our control (climate, river levels, etc.), we may change to a more-suitable tour with an equal or similar adventure-appeal or offer other tour options so you don\`t miss out on a fun day in Costa Rica. We reserve the right to cancel a trip due to unfavorable conditions & will only run a tour according to our policies. Full refund is given if (on rare occasion) no tour is run. This adventure involves some inherent risk and physical exertion, so you must be in good physical condition!"
+For reasons beyond our control (climate, river levels, etc.), we may change to a more-suitable tour with an equal or similar adventure-appeal or offer other tour options so you don't miss out on a fun day in Costa Rica. We reserve the right to cancel a trip due to unfavorable conditions & will only run a tour according to our policies. Full refund is given if (on rare occasion) no tour is run. This adventure involves some inherent risk and physical exertion, so you must be in good physical condition!"
 accom: ""
 ---
 Guanacaste Day Tour: Rafting on the Tenorio River Class 3 and 4

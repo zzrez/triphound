@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5632
-date: "Tue Jul 16 2019 19:31:40 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 15:43:29 GMT-0600 (Central Standard Time)"
 title: "Team Building Experience Stand Up Paddle Lake Arenal"
 categories: 
   - category: Adventure
@@ -45,7 +45,7 @@ bring: "*   Bathing suit
 *   a big smile."
 advice: "This adventure involves some inherent risk and physical exertion, so you must be in good physical condition without any recent surgery, heart condition, pregnancy, disability or injury. You should know how to swim and feel comfortable in water. We cannot guarantee you will not fall off of board while SUP. Desafio Adventure Company reserves the right to cancel any trip due to unsafe conditions and will only run a tour according to established company policies.
 
-For events that could happen beyond our control we may change to a more-suitable tour with an equal or similar adventure-appeal or offer other tour options so you don\`t miss out on a fun day in Costa Rica. We reserve the right to cancel a trip due to unfavorable conditions & will only run a tour according to our policies. Full refund is given if (on rare occasion) no tour is run."
+For events that could happen beyond our control we may change to a more-suitable tour with an equal or similar adventure-appeal or offer other tour options so you don't miss out on a fun day in Costa Rica. We reserve the right to cancel a trip due to unfavorable conditions & will only run a tour according to our policies. Full refund is given if (on rare occasion) no tour is run."
 accom: ""
 ---
 Team Building Experience Stand Up Paddle on Lake Arenal - customizable especially for you!

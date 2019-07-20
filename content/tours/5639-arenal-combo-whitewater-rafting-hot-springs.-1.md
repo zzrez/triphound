@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5639
-date: "Tue Jul 16 2019 19:31:41 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 15:43:31 GMT-0600 (Central Standard Time)"
 title: "Arenal COMBO Whitewater Rafting Hot Springs."
 categories: 
   - category: Adventure
@@ -46,7 +46,7 @@ bring: "*   Clothes to get wet in
 *   a big smile and an appetite for adventure!"
 advice: "Have a look at our Adventure Waiver if you have questions about our Costa Rica adventure tour policies.
 
-For reasons beyond our control (climate, river levels, etc.), we may change to a more-suitable tour with an equal or similar adventure-appeal or offer other tour options so you don\`t miss out on a fun day in Costa Rica. We reserve the right to cancel a trip due to unfavorable conditions & will only run a tour according to our policies. We have one of the most flexible cancellation policies in Costa Rica. Full refund is given if (on rare occasion) no tour is run. This adventure involves some inherent risk and physical exertion, so you must be in good physical condition!While the recommended weight limit for our canyoneering (rappelling) tour and most zip line tours is 220 lbs (100 kilos) it’s more about waist size than weight as the ropes (canyoneering) and cables (zip lines) are rated for well over 220 lbs but the maximum waist size for the harnesses used for these tours is 42 inches. So if you are a little over 220 lbs but your waist is less than 42 inches you can still do these tours.NOTE: We have an extra transport charge for hotels outside of our normal pick-up
+For reasons beyond our control (climate, river levels, etc.), we may change to a more-suitable tour with an equal or similar adventure-appeal or offer other tour options so you don't miss out on a fun day in Costa Rica. We reserve the right to cancel a trip due to unfavorable conditions & will only run a tour according to our policies. We have one of the most flexible cancellation policies in Costa Rica. Full refund is given if (on rare occasion) no tour is run. This adventure involves some inherent risk and physical exertion, so you must be in good physical condition!While the recommended weight limit for our canyoneering (rappelling) tour and most zip line tours is 220 lbs (100 kilos) it’s more about waist size than weight as the ropes (canyoneering) and cables (zip lines) are rated for well over 220 lbs but the maximum waist size for the harnesses used for these tours is 42 inches. So if you are a little over 220 lbs but your waist is less than 42 inches you can still do these tours.NOTE: We have an extra transport charge for hotels outside of our normal pick-up
 
 ZONE 1: 1-22 pax: No extra charge
 
