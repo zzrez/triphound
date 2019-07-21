@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5685
-date: "Sat Jul 20 2019 19:22:59 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:30:07 GMT-0600 (Central Standard Time)"
 title: "Arenal COMBO Lost Canyon Horseback to Waterfall Maleku Village"
 categories: 
   - category: Adventure

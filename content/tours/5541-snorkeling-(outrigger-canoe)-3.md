@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5541
-date: "Sat Jul 20 2019 19:22:41 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:29:47 GMT-0600 (Central Standard Time)"
 title: "Snorkeling (Outrigger Canoe)"
 categories: 
   - category: Kayak

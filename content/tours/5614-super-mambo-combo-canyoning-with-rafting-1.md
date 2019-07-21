@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5614
-date: "Sat Jul 20 2019 19:22:50 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:29:56 GMT-0600 (Central Standard Time)"
 title: "SUPER Mambo Combo Canyoning with Rafting"
 categories: 
   - category: Adventure

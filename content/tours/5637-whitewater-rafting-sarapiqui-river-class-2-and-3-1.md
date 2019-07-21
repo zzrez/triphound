@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5637
-date: "Sat Jul 20 2019 19:22:52 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:30:00 GMT-0600 (Central Standard Time)"
 title: "Whitewater Rafting Sarapiqui River class 2 and 3"
 categories: 
   - category: Adventure

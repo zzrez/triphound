@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5768
-date: "Sat Jul 20 2019 19:23:10 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:30:18 GMT-0600 (Central Standard Time)"
 title: "Monteverde to Arenal Taxi Boat Taxi Coffee Chocolate Tour"
 categories: 
   - category: Coffee

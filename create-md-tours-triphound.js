@@ -81,10 +81,13 @@ const adjHtml = function(text) { //*to adjust html, ref https://ascii.cl/htmlcod
         text = text.replace(/'/ig,"&#39;")
         text = text.replace(/\\/ig,"") //may be temp correcting for scrape
         text = text.replace(/`/ig,"&#39;") //may be temp correcting for scrape
-        text = text.replace(/\*/ig,"&#42;") //may be temp correcting for scrape
-        text = text.replace(/&#92;/ig,"") //backslash \: may be temp correcting for scrape
-        text = text.replace(/\\\*\\\*/ig,"XXX")
-        text = text.replace(/\*\*/ig,"YYY")
+        text = text.replace(/\*/ig,"") //may be temp correcting for scrape
+        
+        //*These do not work for asterisk, not accepted as html code either
+        // text = text.replace(/\*/ig,"&#42;") //may be temp correcting for scrape
+        // text = text.replace(/&#92;/ig,"") //backslash \: may be temp correcting for scrape
+        // text = text.replace(/\\\*\\\*/ig,"XXX")
+        // text = text.replace(/\*\*/ig,"YYY")
         //text = text.replace(/&#42;/ig,"ZZZ")
         
     } else {

@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5686
-date: "Sat Jul 20 2019 19:22:59 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:30:07 GMT-0600 (Central Standard Time)"
 title: "Horseback Riding along the foothills of the Arenal Volcano"
 categories: 
   - category: Adventure

@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5665
-date: "Sat Jul 20 2019 19:22:56 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:30:04 GMT-0600 (Central Standard Time)"
 title: "Arenal Volcano Hike COMBO Ecotermales Hot Springs with Dinner"
 categories: 
   - category: Adventure

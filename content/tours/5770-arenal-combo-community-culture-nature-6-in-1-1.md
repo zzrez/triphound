@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5770
-date: "Sat Jul 20 2019 19:23:10 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:30:18 GMT-0600 (Central Standard Time)"
 title: "Arenal COMBO Community Culture Nature 6 in 1"
 categories: 
   - category: Adventure

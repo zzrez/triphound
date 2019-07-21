@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5690
-date: "Sat Jul 20 2019 19:22:59 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:30:07 GMT-0600 (Central Standard Time)"
 title: "Ocean Kayaking and Snorkeling in Manuel Antonio"
 categories: 
   - category: Adventure

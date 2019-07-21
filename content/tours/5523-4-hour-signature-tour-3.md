@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5523
-date: "Sat Jul 20 2019 19:22:39 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:29:44 GMT-0600 (Central Standard Time)"
 title: "4-Hour Signature Tour"
 categories: 
   - category: Adventure

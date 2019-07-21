@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5716
-date: "Sat Jul 20 2019 19:23:03 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:30:11 GMT-0600 (Central Standard Time)"
 title: "Kayak Fishing on Lake Arenal"
 categories: 
   - category: Adventure
@@ -42,7 +42,7 @@ bring: "*   Rain gear
 *   Hat
 *   Sunglasses
 *   Sandals or wellies"
-advice: "Maximum 4 people for use of kayaks \*\*$25.00 per extra person on boat -- no fishing included\*\* Have a look at our Adventure Waiver if you have questions about our Costa Rica adventure tour policies.
+advice: "Maximum 4 people for use of kayaks $25.00 per extra person on boat -- no fishing included Have a look at our Adventure Waiver if you have questions about our Costa Rica adventure tour policies.
 
 Recommended ages 10-85. For reasons beyond our control (climate, river levels, etc.), we may change to a more-suitable tour with an equal or similar adventure-appeal or offer other tour options so you don't miss out on a fun day in Costa Rica. We reserve the right to cancel a trip due to unfavorable conditions & will only run a tour according to our policies. Full refund is given if (on rare occasion) no tour is run. This adventure involves some inherent risk and physical exertion, so you must be in good physical conditions!"
 accom: ""

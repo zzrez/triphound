@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5771
-date: "Sat Jul 20 2019 19:23:10 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:30:18 GMT-0600 (Central Standard Time)"
 title: "San Jose to La Fortuna Arenal Gravity Falls Waterfall Jumping"
 categories: 
   - category: Adventure

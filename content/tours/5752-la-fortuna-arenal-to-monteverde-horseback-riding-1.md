@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5752
-date: "Sat Jul 20 2019 19:23:08 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:30:16 GMT-0600 (Central Standard Time)"
 title: "La Fortuna Arenal to Monteverde Horseback Riding"
 categories: 
   - category: Birding

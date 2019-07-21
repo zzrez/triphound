@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5717
-date: "Sat Jul 20 2019 19:23:03 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:30:11 GMT-0600 (Central Standard Time)"
 title: "Mountain Biking at Playa Samara"
 categories: 
   - category: Adventure

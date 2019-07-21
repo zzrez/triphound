@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5672
-date: "Sat Jul 20 2019 19:22:57 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:30:05 GMT-0600 (Central Standard Time)"
 title: "Sky Trek, Tram, and Walk Arenal COMBO"
 categories: 
   - category: Adventure

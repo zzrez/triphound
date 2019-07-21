@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5767
-date: "Sat Jul 20 2019 19:23:09 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:30:18 GMT-0600 (Central Standard Time)"
 title: "Samara to La Fortuna Rafting on the Tenorio River Class 3 and 4"
 categories: 
   - category: Coffee

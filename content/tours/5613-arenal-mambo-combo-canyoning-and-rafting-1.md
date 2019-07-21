@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5613
-date: "Sat Jul 20 2019 19:22:50 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:29:56 GMT-0600 (Central Standard Time)"
 title: "Arenal MAMBO COMBO Canyoning and Rafting"
 categories: 
   - category: Adventure

@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5536
-date: "Sat Jul 20 2019 19:22:40 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:29:46 GMT-0600 (Central Standard Time)"
 title: "Canopy & Arial Tram"
 categories: 
   - category: Canopy

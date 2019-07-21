@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5727
-date: "Sat Jul 20 2019 19:23:04 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:30:12 GMT-0600 (Central Standard Time)"
 title: "Original ATV 2 passengers"
 categories: 
   - category: Atv

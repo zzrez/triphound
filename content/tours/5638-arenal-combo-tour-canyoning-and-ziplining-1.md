@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5638
-date: "Sat Jul 20 2019 19:22:53 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:30:01 GMT-0600 (Central Standard Time)"
 title: "Arenal COMBO Tour Canyoning and Ziplining"
 categories: 
   - category: Adventure

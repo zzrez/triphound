@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5631
-date: "Sat Jul 20 2019 19:22:52 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:29:59 GMT-0600 (Central Standard Time)"
 title: "Liberia to Samara White Water Rafting on the Tenorio River"
 categories: 
   - category: Adventure

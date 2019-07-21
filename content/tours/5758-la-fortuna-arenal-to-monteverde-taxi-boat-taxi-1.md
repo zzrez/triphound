@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5758
-date: "Sat Jul 20 2019 19:23:08 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:30:17 GMT-0600 (Central Standard Time)"
 title: "La Fortuna Arenal to Monteverde Taxi Boat Taxi"
 categories: 
   - category: Canyoning

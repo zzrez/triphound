@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5579
-date: "Sat Jul 20 2019 19:22:45 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:29:52 GMT-0600 (Central Standard Time)"
 title: "Ecological Bike Arenal Tour - Biking & Wildlife Experience"
 categories: 
   - category: Combo

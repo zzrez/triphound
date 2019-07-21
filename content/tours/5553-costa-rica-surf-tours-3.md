@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5553
-date: "Sat Jul 20 2019 19:22:42 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:29:48 GMT-0600 (Central Standard Time)"
 title: "Costa Rica Surf Tours"
 categories: 
   - category: Surfing

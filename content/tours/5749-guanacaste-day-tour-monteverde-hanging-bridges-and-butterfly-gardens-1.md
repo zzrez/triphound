@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5749
-date: "Sat Jul 20 2019 19:23:07 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:30:16 GMT-0600 (Central Standard Time)"
 title: "Guanacaste Day Tour Monteverde Hanging Bridges and Butterfly Gardens"
 categories: 
   - category: Birding

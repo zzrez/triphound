@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5619
-date: "Sat Jul 20 2019 19:22:50 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:29:57 GMT-0600 (Central Standard Time)"
 title: "Adventure Connection SJ to Arenal La Paz Waterfall & Mi Cafecito Tour"
 categories: 
   - category: Adventure

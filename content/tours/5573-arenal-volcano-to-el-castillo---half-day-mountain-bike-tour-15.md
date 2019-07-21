@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5573
-date: "Sat Jul 20 2019 19:22:45 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:29:51 GMT-0600 (Central Standard Time)"
 title: "Arenal Volcano to El Castillo - Half Day Mountain Bike Tour"
 categories: 
   - category: Biking

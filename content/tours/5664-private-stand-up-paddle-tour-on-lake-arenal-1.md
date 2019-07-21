@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5664
-date: "Sat Jul 20 2019 19:22:56 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:30:04 GMT-0600 (Central Standard Time)"
 title: "Private Stand Up Paddle Tour on Lake Arenal"
 categories: 
   - category: Adventure

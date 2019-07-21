@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5681
-date: "Sat Jul 20 2019 19:22:58 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:30:06 GMT-0600 (Central Standard Time)"
 title: "Damas Island Kayak Tour"
 categories: 
   - category: Adventure

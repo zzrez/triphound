@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5623
-date: "Sat Jul 20 2019 19:22:51 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:29:58 GMT-0600 (Central Standard Time)"
 title: "Arenal COMBO Costa Rica Whitewater Rafting and Ziplining "
 categories: 
   - category: Adventure

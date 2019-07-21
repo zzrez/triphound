@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5649
-date: "Sat Jul 20 2019 19:22:54 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:30:02 GMT-0600 (Central Standard Time)"
 title: "Arenal Volcano Hike COMBO Baldi Hot Springs with Dinner"
 categories: 
   - category: Adventure

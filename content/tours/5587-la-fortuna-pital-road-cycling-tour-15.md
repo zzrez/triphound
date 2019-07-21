@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5587
-date: "Sat Jul 20 2019 19:22:46 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:29:53 GMT-0600 (Central Standard Time)"
 title: "La Fortuna Pital Road Cycling Tour"
 categories: 
   - category: Biking

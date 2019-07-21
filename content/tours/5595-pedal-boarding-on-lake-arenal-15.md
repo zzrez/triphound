@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5595
-date: "Sat Jul 20 2019 19:22:47 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:29:54 GMT-0600 (Central Standard Time)"
 title: "Pedal Boarding on Lake Arenal"
 categories: 
   - category: Adventure

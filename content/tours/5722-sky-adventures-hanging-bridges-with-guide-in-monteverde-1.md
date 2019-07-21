@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5722
-date: "Sat Jul 20 2019 19:23:04 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:30:11 GMT-0600 (Central Standard Time)"
 title: "Sky Adventures Hanging Bridges with Guide in Monteverde"
 categories: 
   - category: Adventure

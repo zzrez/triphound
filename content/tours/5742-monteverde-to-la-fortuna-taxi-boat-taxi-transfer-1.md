@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5742
-date: "Sat Jul 20 2019 19:23:06 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:30:15 GMT-0600 (Central Standard Time)"
 title: "Monteverde to La Fortuna Taxi Boat Taxi Transfer"
 categories: 
   - category: Birding

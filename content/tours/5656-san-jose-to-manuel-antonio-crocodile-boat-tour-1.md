@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5656
-date: "Sat Jul 20 2019 19:22:55 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:30:03 GMT-0600 (Central Standard Time)"
 title: "San Jose to Manuel Antonio Crocodile Boat Tour"
 categories: 
   - category: Adventure

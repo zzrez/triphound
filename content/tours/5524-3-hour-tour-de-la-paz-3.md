@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5524
-date: "Sat Jul 20 2019 19:22:39 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:29:45 GMT-0600 (Central Standard Time)"
 title: "3-Hour Tour de la Paz"
 categories: 
   - category: Adventure

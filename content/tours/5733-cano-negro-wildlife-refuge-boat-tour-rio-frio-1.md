@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5733
-date: "Sat Jul 20 2019 19:23:05 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:30:14 GMT-0600 (Central Standard Time)"
 title: "Cano Negro Wildlife Refuge Boat Tour Rio Frio"
 categories: 
   - category: Birding

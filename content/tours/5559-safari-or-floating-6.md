@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5559
-date: "Sat Jul 20 2019 19:22:43 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:29:49 GMT-0600 (Central Standard Time)"
 title: "Safari or Floating"
 categories: 
   - category: Default

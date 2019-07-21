@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5605
-date: "Sat Jul 20 2019 19:22:49 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:29:55 GMT-0600 (Central Standard Time)"
 title: "Vuelta a Chachagua Road Cycling Full Day."
 categories: 
   - category: Biking

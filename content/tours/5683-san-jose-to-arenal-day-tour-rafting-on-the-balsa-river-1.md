@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5683
-date: "Sat Jul 20 2019 19:22:59 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:30:07 GMT-0600 (Central Standard Time)"
 title: "San Jose to Arenal Day Tour Rafting on the Balsa River"
 categories: 
   - category: Adventure

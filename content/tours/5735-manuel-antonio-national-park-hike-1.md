@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5735
-date: "Sat Jul 20 2019 19:23:05 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:30:14 GMT-0600 (Central Standard Time)"
 title: "Manuel Antonio National Park Hike"
 categories: 
   - category: Birding

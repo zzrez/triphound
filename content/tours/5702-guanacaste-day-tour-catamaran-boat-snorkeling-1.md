@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5702
-date: "Sat Jul 20 2019 19:23:01 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:30:09 GMT-0600 (Central Standard Time)"
 title: "Guanacaste Day Tour Catamaran Boat Snorkeling"
 categories: 
   - category: Adventure
@@ -33,7 +33,7 @@ highlights2: ""
 includes: "*   Professional guide; all equipment; snack"
 excludes: ""
 bring: "*   Clothes to get wet in; flip-flops; binoculars; camera; hat; sunscreen; change of clothes for after the tour; a little extra spending money in case you want to buy some beers and souvenirs"
-advice: "Important Notes 1. Rates are per person and include taxes (13%) 2. Pick up time will depend on the hotel where you are staying and the city you are coming from. Please be ready 5 minutes before the assigned time. 3. In the event of any inconvenience at the pick up, please call us immediately: (506) 2479-0020 4. We have a 48-hour cancellation policy. Recommended ages 13-65, minors must be accompanied by parent or guardian. \*\*Transportation in Tamarindo is not included. If your hotel is outside Tamarindo area, transportation can be included but we will advice you once we have your pick up & drop off location\*\*
+advice: "Important Notes 1. Rates are per person and include taxes (13%) 2. Pick up time will depend on the hotel where you are staying and the city you are coming from. Please be ready 5 minutes before the assigned time. 3. In the event of any inconvenience at the pick up, please call us immediately: (506) 2479-0020 4. We have a 48-hour cancellation policy. Recommended ages 13-65, minors must be accompanied by parent or guardian. Transportation in Tamarindo is not included. If your hotel is outside Tamarindo area, transportation can be included but we will advice you once we have your pick up & drop off location
 
 For events that could happen beyond our control we may change to a more-suitable tour with an equal or similar adventure-appeal or offer other tour options so you don't miss out on a fun day in Costa Rica. We reserve the right to cancel a trip due to unfavorable conditions & will only run a tour according to our policies. Full refund is given if (on rare occasion) no tour is run."
 accom: ""

@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5698
-date: "Sat Jul 20 2019 19:23:00 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:30:08 GMT-0600 (Central Standard Time)"
 title: "Monteverde COMBO Selvatura Zipline Self-Guided Hanging Bridge"
 categories: 
   - category: Adventure

@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5617
-date: "Sat Jul 20 2019 19:22:50 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:29:57 GMT-0600 (Central Standard Time)"
 title: "San Jose to La Fortuna Rafting Sarapiqui Class 3 and 4"
 categories: 
   - category: Adventure
