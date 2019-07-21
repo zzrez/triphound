@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5585
-date: "Sat Jul 20 2019 17:25:12 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:22:46 GMT-0600 (Central Standard Time)"
 title: "Kayak Safari Float"
 categories: 
   - category: Adventure

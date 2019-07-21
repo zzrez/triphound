@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5669
-date: "Sat Jul 20 2019 17:25:24 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:22:57 GMT-0600 (Central Standard Time)"
 title: "Ocean Kayaking and Snorkeling in Playa Samara"
 categories: 
   - category: Adventure

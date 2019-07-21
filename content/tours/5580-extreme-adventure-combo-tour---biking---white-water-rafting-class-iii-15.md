@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5580
-date: "Sat Jul 20 2019 17:25:11 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:22:46 GMT-0600 (Central Standard Time)"
 title: "EXTREME ADVENTURE COMBO TOUR - Biking & White Water Rafting Class III"
 categories: 
   - category: Combo

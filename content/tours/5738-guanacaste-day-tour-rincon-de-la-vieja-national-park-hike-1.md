@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5738
-date: "Sat Jul 20 2019 17:25:35 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:23:06 GMT-0600 (Central Standard Time)"
 title: "Guanacaste Day Tour Rincon de la Vieja National Park Hike"
 categories: 
   - category: Birding

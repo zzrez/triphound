@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5741
-date: "Sat Jul 20 2019 17:25:35 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:23:06 GMT-0600 (Central Standard Time)"
 title: "Palo Verde National Park Boat Tour Guaitil Pottery Samara Beach"
 categories: 
   - category: Birding

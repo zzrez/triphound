@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5643
-date: "Sat Jul 20 2019 17:25:21 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:22:53 GMT-0600 (Central Standard Time)"
 title: "Monteverde to Samara Safari Float on the Tenorio River"
 categories: 
   - category: Adventure

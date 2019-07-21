@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5756
-date: "Sat Jul 20 2019 17:25:37 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:23:08 GMT-0600 (Central Standard Time)"
 title: "Arenal to Monteverde Boat Transfer Coffee Chocolate Tour"
 categories: 
   - category: Birding

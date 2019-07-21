@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5652
-date: "Sat Jul 20 2019 17:25:22 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:22:54 GMT-0600 (Central Standard Time)"
 title: "Kayaking on Lake Arenal"
 categories: 
   - category: Adventure

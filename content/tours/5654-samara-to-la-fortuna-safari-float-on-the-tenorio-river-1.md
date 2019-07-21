@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5654
-date: "Sat Jul 20 2019 17:25:22 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:22:55 GMT-0600 (Central Standard Time)"
 title: "Samara to La Fortuna Safari Float on the Tenorio River"
 categories: 
   - category: Adventure

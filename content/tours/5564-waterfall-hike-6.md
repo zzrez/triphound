@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5564
-date: "Sat Jul 20 2019 17:25:09 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:22:44 GMT-0600 (Central Standard Time)"
 title: "Waterfall Hike"
 categories: 
   - category: Default

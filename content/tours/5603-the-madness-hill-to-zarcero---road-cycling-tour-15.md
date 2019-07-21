@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5603
-date: "Sat Jul 20 2019 17:25:14 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:22:48 GMT-0600 (Central Standard Time)"
 title: "THE MADNESS HILL TO ZARCERO - Road Cycling Tour"
 categories: 
   - category: Biking

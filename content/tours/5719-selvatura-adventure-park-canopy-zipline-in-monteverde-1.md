@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5719
-date: "Sat Jul 20 2019 17:25:31 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:23:03 GMT-0600 (Central Standard Time)"
 title: "Selvatura Adventure Park Canopy Zipline in Monteverde"
 categories: 
   - category: Adventure

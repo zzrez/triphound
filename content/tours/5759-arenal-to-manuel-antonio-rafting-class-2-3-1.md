@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5759
-date: "Sat Jul 20 2019 17:25:38 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:23:08 GMT-0600 (Central Standard Time)"
 title: "Arenal to Manuel Antonio Rafting Class 2-3"
 categories: 
   - category: Canyoning

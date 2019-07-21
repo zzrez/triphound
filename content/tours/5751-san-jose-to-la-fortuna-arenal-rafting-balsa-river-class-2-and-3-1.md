@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5751
-date: "Sat Jul 20 2019 17:25:37 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:23:07 GMT-0600 (Central Standard Time)"
 title: "San Jose to La Fortuna Arenal Rafting Balsa River Class 2 and 3"
 categories: 
   - category: Birding

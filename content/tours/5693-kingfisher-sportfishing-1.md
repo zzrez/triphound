@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5693
-date: "Sat Jul 20 2019 17:25:27 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:23:00 GMT-0600 (Central Standard Time)"
 title: "Kingfisher Sportfishing"
 categories: 
   - category: Adventure

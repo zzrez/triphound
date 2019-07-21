@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5612
-date: "Sat Jul 20 2019 17:25:16 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:22:49 GMT-0600 (Central Standard Time)"
 title: "Gravity Falls EXTREME COMBO Waterfall Jumping Biking Rafting"
 categories: 
   - category: Adventure

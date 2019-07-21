@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5626
-date: "Sat Jul 20 2019 17:25:18 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:22:51 GMT-0600 (Central Standard Time)"
 title: "Costa Rica Whitewater Rafting Sarapiqui Afternoon"
 categories: 
   - category: Adventure

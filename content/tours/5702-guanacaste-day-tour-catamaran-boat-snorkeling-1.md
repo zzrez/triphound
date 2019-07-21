@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5702
-date: "Sat Jul 20 2019 17:25:28 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:23:01 GMT-0600 (Central Standard Time)"
 title: "Guanacaste Day Tour Catamaran Boat Snorkeling"
 categories: 
   - category: Adventure

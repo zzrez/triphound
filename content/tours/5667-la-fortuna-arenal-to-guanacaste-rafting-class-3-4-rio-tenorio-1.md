@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5667
-date: "Sat Jul 20 2019 17:25:24 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:22:57 GMT-0600 (Central Standard Time)"
 title: "La Fortuna Arenal to Guanacaste Rafting Class 3-4 Rio Tenorio"
 categories: 
   - category: Adventure

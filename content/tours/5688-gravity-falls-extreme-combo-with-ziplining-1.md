@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5688
-date: "Sat Jul 20 2019 17:25:27 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:22:59 GMT-0600 (Central Standard Time)"
 title: "Gravity Falls EXTREME Combo with Ziplining"
 categories: 
   - category: Adventure

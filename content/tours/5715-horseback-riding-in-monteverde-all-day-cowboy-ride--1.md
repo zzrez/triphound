@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5715
-date: "Sat Jul 20 2019 17:25:30 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:23:02 GMT-0600 (Central Standard Time)"
 title: "Horseback Riding in Monteverde All Day Cowboy Ride "
 categories: 
   - category: Adventure

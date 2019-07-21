@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5710
-date: "Sat Jul 20 2019 17:25:30 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:23:02 GMT-0600 (Central Standard Time)"
 title: "Safari Float Tenorio River no transport"
 categories: 
   - category: Adventure

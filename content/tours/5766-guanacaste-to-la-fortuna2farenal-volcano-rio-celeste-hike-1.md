@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5766
-date: "Sat Jul 20 2019 17:25:39 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:23:09 GMT-0600 (Central Standard Time)"
 title: "Guanacaste to La Fortuna/Arenal Volcano Rio Celeste Hike"
 categories: 
   - category: Coffee

@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5687
-date: "Sat Jul 20 2019 17:25:26 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:22:59 GMT-0600 (Central Standard Time)"
 title: "Borinquen COMBO Waterfall, Horseback Riding, Recreational Areas"
 categories: 
   - category: Adventure

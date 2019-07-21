@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5744
-date: "Sat Jul 20 2019 17:25:36 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:23:07 GMT-0600 (Central Standard Time)"
 title: "Guanacaste to La Fortuna Arenal Safari Float on the Tenorio River"
 categories: 
   - category: Birding

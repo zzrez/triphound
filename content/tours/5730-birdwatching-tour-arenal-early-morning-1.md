@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5730
-date: "Sat Jul 20 2019 17:25:33 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:23:05 GMT-0600 (Central Standard Time)"
 title: "Birdwatching Tour Arenal Early Morning"
 categories: 
   - category: Birding

@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5661
-date: "Sat Jul 20 2019 17:25:23 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:22:55 GMT-0600 (Central Standard Time)"
 title: "Arenal COMBO Tour Whitewater Rafting and ATV"
 categories: 
   - category: Adventure

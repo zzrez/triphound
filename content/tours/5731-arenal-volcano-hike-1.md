@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5731
-date: "Sat Jul 20 2019 17:25:34 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:23:05 GMT-0600 (Central Standard Time)"
 title: "Arenal Volcano Hike"
 categories: 
   - category: Birding

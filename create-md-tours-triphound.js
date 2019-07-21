@@ -70,17 +70,23 @@ const adjText = function(text) { //*to adjust text (not html)
     return text
 }
 
-const adjHtml = function(text) { //*to adjust html
+const adjHtml = function(text) { //*to adjust html, ref https://ascii.cl/htmlcodes.htm
     if (text){
         text = text.replace(/'/g,"&apos;").trim() //* escape apostrophe
         text = text.replace(/\s+/ig, ' ') //*replace white space with 1 space
         //text = text.replace(/\*/ig,"-")
         //text = text.replace(/%/ig,"")
-        text = text.replace(/"/ig,"%22;") //correct????
+        //text = text.replace(/"/ig,"%22;") //correct????
         text = text.replace(/"/ig,"&#34;")
         text = text.replace(/'/ig,"&#39;")
         text = text.replace(/\\/ig,"") //may be temp correcting for scrape
         text = text.replace(/`/ig,"&#39;") //may be temp correcting for scrape
+        text = text.replace(/\*/ig,"&#42;") //may be temp correcting for scrape
+        text = text.replace(/&#92;/ig,"") //backslash \: may be temp correcting for scrape
+        text = text.replace(/\\\*\\\*/ig,"XXX")
+        text = text.replace(/\*\*/ig,"YYY")
+        //text = text.replace(/&#42;/ig,"ZZZ")
+        
     } else {
         text = ""
     }

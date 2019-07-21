@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5707
-date: "Sat Jul 20 2019 17:25:29 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:23:02 GMT-0600 (Central Standard Time)"
 title: "Sky Adventures Monteverde COMBO Sky Trek Tram and Walk "
 categories: 
   - category: Adventure

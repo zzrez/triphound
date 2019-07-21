@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5769
-date: "Sat Jul 20 2019 17:25:40 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:23:10 GMT-0600 (Central Standard Time)"
 title: "Cooking and Salsa Dance Lesson Combo"
 categories: 
   - category: Adventure

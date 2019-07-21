@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5743
-date: "Sat Jul 20 2019 17:25:36 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:23:06 GMT-0600 (Central Standard Time)"
 title: "Manuel Antonio to Monteverde Crocodile Tour Tarcoles River"
 categories: 
   - category: Birding

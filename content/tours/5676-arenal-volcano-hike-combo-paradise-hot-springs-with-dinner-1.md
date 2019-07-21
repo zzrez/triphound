@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5676
-date: "Sat Jul 20 2019 17:25:25 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:22:58 GMT-0600 (Central Standard Time)"
 title: "Arenal Volcano Hike COMBO Paradise Hot Springs with Dinner"
 categories: 
   - category: Adventure

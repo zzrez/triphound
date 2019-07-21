@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5709
-date: "Sat Jul 20 2019 17:25:30 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:23:02 GMT-0600 (Central Standard Time)"
 title: "Guided Hike at the EcoCentro Danaus Nature Reserve"
 categories: 
   - category: Adventure

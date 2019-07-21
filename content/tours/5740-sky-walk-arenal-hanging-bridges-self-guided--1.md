@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5740
-date: "Sat Jul 20 2019 17:25:35 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:23:06 GMT-0600 (Central Standard Time)"
 title: "Sky Walk Arenal Hanging Bridges Self-Guided "
 categories: 
   - category: Birding

@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5723
-date: "Sat Jul 20 2019 17:25:32 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:23:04 GMT-0600 (Central Standard Time)"
 title: "Stand Up Paddle on the Ocean in Playa Samara"
 categories: 
   - category: Adventure

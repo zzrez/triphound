@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5634
-date: "Sat Jul 20 2019 17:25:19 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:22:52 GMT-0600 (Central Standard Time)"
 title: "San Jose Day Tour Gravity Falls with Hot Springs"
 categories: 
   - category: Adventure

@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5576
-date: "Sat Jul 20 2019 17:25:11 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:22:45 GMT-0600 (Central Standard Time)"
 title: "Ca�o Negro Wildlife Refuge"
 categories: 
   - category: Adventure

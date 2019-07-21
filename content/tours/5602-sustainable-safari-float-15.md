@@ -1,7 +1,7 @@
 ---
 template: SingleTour
 tourId: 5602
-date: "Sat Jul 20 2019 17:25:14 GMT-0600 (Central Standard Time)"
+date: "Sat Jul 20 2019 19:22:48 GMT-0600 (Central Standard Time)"
 title: "Sustainable Safari Float"
 categories: 
   - category: Adventure
