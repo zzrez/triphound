@@ -1,6 +1,7 @@
 // https://www.gatsbyjs.org/docs/adding-tags-and-categories-to-blog-posts/#add-tags-to-your-markdown-files
-//! For full version see root/TourListFULL15jul19.js
+//! DIFFERENCE WITH NORMAL TOURLIST IS QRAPHQL WITH SIMPLER FILTER
 //! Copy of ToursIndexPage4.js, but changing CSS from MUI
+//! Adds location from @reach/router as TourIndex.js
 
 //! This creates region/tag pages, eg http://localhost:8000/osa/adventure/
 
@@ -8,6 +9,7 @@
 //* full version for tags
 import React, { useState } from 'react';
 import { graphql } from 'gatsby';
+import { Location } from '@reach/router'
 import qs from 'qs'
 
 
@@ -16,13 +18,14 @@ import ListPageHeader from '../components/ListPageHeader' //version of PageHeade
 import Layout from '../components/Layout'
 import TourTagsNav from '../components/TourTagsNav' //version of PostCategoriesNav
 import TourRegionsNav from '../components/TourRegionsNav' //version of TourTagsNav
-
-//!New
 import TourSectionNew from '../components/TourSectionNew' //simple function version of PostSection
 
 
+const PlaceCatIndex = ({ pageContext, data }) => (
 
-const PlaceCatIndex = ({ pageContext, data }) => {
+  <Location>
+    {({ location }) => {
+
   const { tag, place, tagsRegion, allRegions } = pageContext;
   // const { edges, totalCount } = data.allMarkdownRemark;
   // const post = data.markdownRemark
@@ -39,39 +42,28 @@ const PlaceCatIndex = ({ pageContext, data }) => {
   const arrAllRegions = allRegions.split(",")
 
   //*Not used
-  // let mainTitle
-  // if (tag) {
-  //     mainTitle = place + "-" + tag
-  // } else {
-  //     mainTitle = place
-  // }
-  // mainTitle = mainTitle + " ("+totalCount+")"
+//   let mainTitle
+//   if (tag) {
+//       mainTitle = place + "-" + tag
+//   } else {
+//       mainTitle = place
+//   }
+//   mainTitle = mainTitle + " ("+totalCount+")"
 
-    let startLimit = 12,
-    showLoadMore = true,
-    loadMoreTitle = 'Show More',
-    perPageLimit = 12,
-    enableSearch = true
-
-    const [limit, increaseLimit] = useState(startLimit);
-
-    let visiblePosts = posts.slice(0, limit || posts.length)
+    let enableSearch = true,
+    filteredPosts = posts 
 
     //* Add filter
-    // let queryObj = body.search.replace('?', '')
-    // //let queryObj = search.replace('?', '')
-    //   queryObj = qs.parse(queryObj)
+    let queryObj = location.search.replace('?', '')
+      queryObj = qs.parse(queryObj)
 
-    // if (enableSearch && queryObj.s) {
-    //   const searchTerm = queryObj.s.toLowerCase()
-    //   posts = posts.filter(post =>
-    //     post.frontmatter.title.toLowerCase().includes(searchTerm)
-    //   )
-    // }
+    if (enableSearch && queryObj.s) {
+      const searchTerm = queryObj.s.toLowerCase()
+      filteredPosts = posts.filter(post =>
+        post.node.frontmatter.title.toLowerCase().includes(searchTerm)
+      ) 
+    }
 
-  // const tagHeader = `${totalCount} post${
-  //   totalCount === 1 ? '' : 's'
-  // } tagged with "${tag}"`;
   return (
     <Layout>
 
@@ -104,37 +96,31 @@ const PlaceCatIndex = ({ pageContext, data }) => {
             )}
 
             {/*START OF TOUR LISTING USING COMPONENT */}
-            {!!visiblePosts.length && (
+            {!!filteredPosts.length && (
               <section className="section">
                 <div className="container">
-                  <TourSectionNew posts={visiblePosts} />
+                  <TourSectionNew posts={filteredPosts} />
                 </div>
               </section>
-            )}
-
-            {showLoadMore && visiblePosts.length < posts.length && (
-            <div className="taCenter">
-                <button className="button" onClick={() => increaseLimit(limit + perPageLimit)}>
-                {loadMoreTitle}
-                </button>
-            </div>
             )}
 
       </main>
 
     </Layout>
   );
-}
+  }}
+  </Location>
+)
 
 export default PlaceCatIndex;
 
 export const pageQuery = graphql`
-  query($tag: String, $place: String) {
-    allMarkdownRemark(
-      limit: 2000
-      sort: { fields: [frontmatter___date], order: DESC }
-      filter: {frontmatter: {tags: { in: [$tag] } meeting: { eq: $place } }}
-    ) {
+query($tag: String, $place: String) {
+  allMarkdownRemark(
+    limit: 2000
+    sort: { fields: [frontmatter___date], order: DESC }
+    filter: {frontmatter: {tags: { in: [$tag] } meeting: { eq: $place } }}
+  ) {
         totalCount
         edges {
           node {
@@ -143,6 +129,7 @@ export const pageQuery = graphql`
               slug
             }
             frontmatter {
+              tourId
               title
               date
               tags

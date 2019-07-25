@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import BlogSearch from './BlogSearch'
+import TourSearch from './TourSearch' //version of BlogSearch
 import './TourCategoriesNav.css' //version of PostCategoriesNav.css
 
 const TourRegionsNav = ({ regions, place, enableSearch }) => {
@@ -23,7 +23,7 @@ const TourRegionsNav = ({ regions, place, enableSearch }) => {
       </Link>
     ))}
     
-    {enableSearch && <BlogSearch />}
+    {enableSearch && <TourSearch />}
   </div>
   )
 }

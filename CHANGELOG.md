@@ -1,4 +1,23 @@
 # TRIPHOUND
+## 2019-07-25
+Solve filter & more results for TourListALL.js.
+After adding in Location (@reach/router), filter works in TourListAll-filter-notstate25jul19.js
+But useState hook for showing more results fails.
+Solved by moving useState hook for showing more results from tourlist page to TourSectionNew.js 
+
+TourSearch.js, copy of BlogSearch, used in TourSectionNew.js
+
+TourListALL.js (was TourListAll24jul19) used to create:-
+TourList.js (previous TourList-slice25jul19.js)
+TourListTag.js (previous TourListTag-slice25jul19.js)
+TourListRegion.js (previous TourListRegion-slice25jul19.js)
+Previous all included useState hook for showing more results.
+DIFFERENCE BETWEEN THESE TEMPLATES: top of graphql, and note at top
+
+## 2019-07-24
+Try to solve filter of TourListALL.js, fail
+Put TourSearch instead of BlogSearch in TourRegionsNav.js. 
+Save old copies in folder Copies. But filter of TourListALL.js fails.
 
 ## 2019-07-16
 Remove ' className="section thin"' from lines 87 & 97 of tour list templates

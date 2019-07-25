@@ -9,6 +9,7 @@ import Layout from '../components/Layout'
 import './SinglePost.css'
 
 export const SingleTourTemplate = ({
+  tourId,
   title,
   id,
   date,
@@ -74,7 +75,7 @@ export const SingleTourTemplate = ({
           )}
 
           <h4>
-              Id{id}
+          tourId: {tourId} / Id: {id}
           </h4>
           <img src={main_photo} alt={title} />
 
@@ -164,6 +165,7 @@ export const pageQuery = graphql`
       html
       id
       frontmatter {
+        tourId
         title
         template
         subtitle
