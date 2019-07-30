@@ -1,4 +1,8 @@
 # TRIPHOUND
+## 2019-07-28
+Replace Blog dropdown in Nav.js by Tours dropdown
+Meant changing Nav.js & Layout.js (including graphql in latter)
+
 ## 2019-07-25
 Solve filter & more results for TourListALL.js.
 After adding in Location (@reach/router), filter works in TourListAll-filter-notstate25jul19.js

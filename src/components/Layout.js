@@ -1,3 +1,5 @@
+//! Replaces blog with tours
+
 import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
@@ -37,14 +39,38 @@ export default ({ children, meta, title }) => {
               }
             }
           }
+
+          allRegions: allMarkdownRemark(
+            filter: { fields: { contentType: { eq: "region" } } }
+            sort: { order: ASC, fields: [frontmatter___title] }
+          ) {
+            edges {
+              node {
+                fields {
+                  slug
+                }
+                frontmatter {
+                  title
+                }
+              }
+            }
+          }
+         
         }
       `}
       render={data => {
         const { siteTitle, socialMediaCard, googleTrackingId } =
             data.settingsYaml || {},
+          // subNav = {
+          //   posts: data.allPosts.hasOwnProperty('edges')
+          //     ? data.allPosts.edges.map(post => {
+          //         return { ...post.node.fields, ...post.node.frontmatter }
+          //       })
+          //     : false
+          // },
           subNav = {
-            posts: data.allPosts.hasOwnProperty('edges')
-              ? data.allPosts.edges.map(post => {
+            posts: data.allRegions.hasOwnProperty('edges')
+              ? data.allRegions.edges.map(post => {
                   return { ...post.node.fields, ...post.node.frontmatter }
                 })
               : false

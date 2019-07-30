@@ -1,3 +1,5 @@
+//! Removes blog, tours and replaces with tours dropdown by region
+
 import React, { Component } from 'react'
 import { Location } from '@reach/router'
 import { Link } from 'gatsby'
@@ -50,7 +52,7 @@ export class Navigation extends Component {
           </Link>
           <div className="Nav--Links">
             <NavLink to="/">Home</NavLink>
-            <NavLink to="/all/">Tours</NavLink>
+            
             <NavLink to="/search">Search all tours</NavLink>
 
             <div
@@ -68,11 +70,11 @@ export class Navigation extends Component {
                 }`}
                 onClick={() => this.toggleSubNav('posts')}
               >
-                Blog
+                Tours
               </span>
               <div className="Nav--GroupLinks">
-                <NavLink to="/blog/" className="Nav--GroupLink">
-                  All Posts
+                <NavLink to="/all/" className="Nav--GroupLink">
+                  All
                 </NavLink>
                 {subNav.posts.map((link, index) => (
                   <NavLink
