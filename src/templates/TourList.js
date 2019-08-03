@@ -16,9 +16,12 @@ import qs from 'qs'
 //import TourRegionNav from '../components/TourRegionNav' //version of PostCategoriesNav
 import ListPageHeader from '../components/ListPageHeader' //version of PageHeader
 import Layout from '../components/Layout'
-import TourTagsNav from '../components/TourTagsNav' //version of PostCategoriesNav
-import TourRegionsNav from '../components/TourRegionsNav' //version of TourTagsNav
+// import TourTagsNav from '../components/TourTagsNav' //version of PostCategoriesNav
+// import TourRegionsNav from '../components/TourRegionsNav' //version of TourTagsNav
 import TourSectionNew from '../components/TourSectionNew' //simple function version of PostSection
+
+//! changes re sidebar
+import Sidebar from '../components/Sidebar'
 
 
 const PlaceCatIndex = ({ pageContext, data }) => (
@@ -74,32 +77,23 @@ const PlaceCatIndex = ({ pageContext, data }) => (
               count = {totalCount}
               //backgroundImage={featuredImage}
             />
-            
-            {!!arrAllRegions.length && (
-                <section>
-                <div className="container">
-                    <TourRegionsNav enableSearch 
-                    regions={arrAllRegions}
-                    place = {place} />
-                </div>
-                </section>
-            )}
 
-            {!!arrTagsRegion.length && (
-                <section>
-                <div className="container">
-                    <TourTagsNav 
-                    tags={arrTagsRegion}
-                    place = {place} />
-                </div>
-                </section>
-            )}
-
-            {/*START OF TOUR LISTING USING COMPONENT */}
+            {/*TOUR LISTING USING COMPONENTS */}
             {!!filteredPosts.length && (
               <section className="section">
                 <div className="container">
-                  <TourSectionNew posts={filteredPosts} />
+                  <div className="mainblock">                
+                    <div className="sidebar">
+                      <Sidebar enableSearch 
+                      regions={arrAllRegions}
+                      tags={arrTagsRegion}
+                      place = {place} 
+                      tag={tag} />
+                    </div>
+                    <div className="content">
+                      <TourSectionNew posts={filteredPosts} />
+                    </div>
+                  </div>
                 </div>
               </section>
             )}
@@ -118,7 +112,7 @@ export const pageQuery = graphql`
 query($tag: String, $place: String) {
   allMarkdownRemark(
     limit: 2000
-    sort: { fields: [frontmatter___date], order: DESC }
+    sort: { fields: [frontmatter___price_from], order: ASC }
     filter: {frontmatter: {tags: { in: [$tag] } meeting: { eq: $place } }}
   ) {
         totalCount

@@ -1,4 +1,12 @@
 # TRIPHOUND
+## 2019-08-03
+Fail: try to put several GraphQL queries in one template, TourList-ifGraphQL3aug19.js (2nd for region not showing anything).
+Update other 3 TourList templates (_All, _Tag, _Region) to have same code between <Layout> tags, and include SideBar component. Only graphQL and top comment differ.
+
+## 2019-08-02
+Add sidebar in TourList.js, following example of https://www.tourradar.com/d/costa-rica 
+Changes: ListPageHeader.js & .css, SideBar.js &.css
+
 ## 2019-07-28
 Replace Blog dropdown in Nav.js by Tours dropdown
 Meant changing Nav.js & Layout.js (including graphql in latter)

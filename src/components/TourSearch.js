@@ -12,8 +12,9 @@ export default ({ pageCount }) => {
         return (
           <input
             type="text"
+            class="search"
             value={search.s || ''}
-            placeholder="Filter these..."
+            placeholder="Search"
             onChange={e => {
               let search = {}
               search.s = e.target.value

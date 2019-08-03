@@ -1,0 +1,88 @@
+/* The side navigation menu see https://codepen.io/srez/pen/KOXPJm */
+
+/* header {
+    grid-area: header;
+    background-color: #fed330;
+    padding: 20px;
+  } */
+
+  .mainblock { /* contains sidebar & content */
+    display: grid;
+    background-color: #fff;/* 2f4f7, yellow #fed330 */
+    grid-gap: 20px;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas:
+      /* "header  header" */
+      "sidebar content"
+      /* "footer  footer"; */
+  }
+
+  .content { /* contains the tour list */
+    grid-area: content;
+    /* background-color: #20bf6b; */
+    padding: 20px;
+  }
+  
+  /* footer {
+    padding: 20px;
+    grid-area: footer;
+    background-color: #fd9644;
+  } */
+
+  .aside {
+    grid-area: sidebar; 
+    background-color: #f1f1f1;
+  }
+  
+  .sidebar {
+  /* grid-area: sidebar;   */
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+  width: 1fr;
+  /* background-color: #f1f1f1; */
+  /* overflow: auto; */
+  }
+  
+  .sidebar .subtitle {
+  color: #194a8e;
+  font-size: 65%;
+  padding: 10px 5px 0px 16px;
+  font-weight: bold;
+  }
+  
+  /* Sidebar links */
+  .sidebar a {
+  display: block;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  }
+  
+  /* Active/current link */
+  .sidebar a.active {
+  background-color: #AF3136;
+  /* background-color: #4CAF50; */
+  color: white;
+  }
+  
+  /* Links on mouse-over */
+  .sidebar a:hover:not(.active) {
+  background-color: #E05A60;
+  /* background-color: #555; */
+  color: white;
+  }
+
+  .search {
+      width: 100%;
+  }
+  
+  /* On screens that are less than 700px wide, hide the sidebar */
+  @media screen and (max-width:700px) {
+	.sidebar {
+		display: none;
+    }
+    div.content {margin-left: 0;}
+    }
+
+  

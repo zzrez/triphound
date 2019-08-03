@@ -1,7 +1,12 @@
+
+/* Additions to the file */
+.section { padding: 0;}
+.container {margin-top:10px;}
+
 .PageHeader {
   background-color: var(--darkGrey);
   color: white;
-  padding: 15rem 0;
+  padding: 25rem 0 -25rem 0; /*was padding: 15rem 0;*/
 }
 
 .PageHeader .BackgroundImage {

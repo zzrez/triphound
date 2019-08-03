@@ -7,43 +7,40 @@ import Content from './Content'
 import './ListPageHeader.css' //version of PageHeader.css
 
 const ListPageHeader = ({ place, tag, count }) => {
-  let backgroundImage = ""
+  //let backgroundImage = ""
   
-  let className = "PageHeader relative"
-  className = ""
+  //let className = "PageHeader relative"
+  //className = ""
 
-  let placeTitle
-  if (place){
-    placeTitle = place
-} else {
-    placeTitle = "All tours"
-}
-  
+  //*Format?
+  // 13 Adventure activities in Jaco / Costa Rica 
+  // 50 total activities in Jaco
+  // or
+  // Adventure activities in Jaco / Costa Rica  (13)
+  // All activities in Jaco (50)
+
+
   let tagTitle
   if (tag) {
-      tagTitle = tag + " ("+count+")"
+      tagTitle = tag
   } else {
-      tagTitle = "("+count+")"
+      tagTitle = "All"
   }
+  tagTitle = tagTitle + " activities in "
+
+  let placeTitle
+  if (place) {
+    placeTitle = tagTitle + place
+  } else {
+      placeTitle = tagTitle + "Costa Rica"
+  }
+
+  placeTitle = placeTitle  + " ("+count+")"
   
   return (
-    <div className={className}>
-      {backgroundImage && (
-        <Image
-          background
-          resolutions="large"
-          src={backgroundImage}
-          alt={place}
-          size="cover"
-        />
-      )}
-      <div className="container relative">
-        <h1 className="PageHeader--Title">{placeTitle}</h1>
-        {tagTitle && (
-          <Content className="PageHeader--Subtitle" src={tagTitle} />
-        )}
+      <div className="container">
+        <h2>{placeTitle}</h2>
       </div>
-    </div>
   )
 }
 

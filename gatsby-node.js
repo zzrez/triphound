@@ -77,7 +77,7 @@ exports.createPages = ({ actions, graphql }) => {
         // console.log(`component = ${component}`)
       })
 
-      //* NEW SECTION FOR TOURS
+      //* SECTION FOR TOURS
       if (contentType === "tours") {
         console.log(`\nCreating regional ${contentType} lists`)
 

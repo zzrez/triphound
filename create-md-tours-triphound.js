@@ -356,6 +356,8 @@ mdAll = frontMatter+description
 //                         }
 //                     }
 
+//! remove previous pages, see https://stackoverflow.com/questions/27072866/how-to-remove-all-files-from-directory-without-removing-directory-in-node-js/42182416
+
                     //!CREATE MD MEETING PLACES PAGES (REGION)
                     for(let m = 0; m < allMeetings.length; m++) { //1st letter is upper case
                         let lTitleRegion = allMeetings[m].toLowerCase()
