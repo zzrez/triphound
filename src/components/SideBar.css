@@ -79,7 +79,7 @@
   
   /* On screens that are less than 700px wide, hide the sidebar */
   @media screen and (max-width:700px) {
-	.sidebar {
+	.aside {
 		display: none;
     }
     div.content {margin-left: 0;}

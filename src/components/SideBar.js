@@ -8,13 +8,15 @@ import './SideBar.css' //https://www.w3schools.com/howto/howto_css_sidebar_respo
 
 const SideBar = ({ regions, tags, tag, place, enableSearch }) => {
 
-  let adjPlace, adjPlaceText, selTag
+  let adjPlace, adjPlaceText, selTag, className
   if (place) {
     adjPlace = place.toLowerCase()
     adjPlaceText = "All "+ place
+    className = ""
   } else {
     adjPlace = "all"
     adjPlaceText = "All"
+    className = "active"
   }
   selTag = tag
 
@@ -24,7 +26,7 @@ const SideBar = ({ regions, tags, tag, place, enableSearch }) => {
       {enableSearch && <TourSearch />}
 
       <div className="subtitle">REGION</div>
-      <Link exact="true" to={`/all/`}>
+      <Link className={className} exact="true" to={`/all/`}>
         All
       </Link>
       
