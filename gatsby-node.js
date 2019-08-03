@@ -72,8 +72,8 @@ exports.createPages = ({ actions, graphql }) => {
         })
 
         console.log(`contentType = ${contentType}`)
-        console.log(`id = ${id}`)
-        console.log(`slug = ${thisSlug}`)
+        //console.log(`id = ${id}`)
+        //console.log(`slug = ${thisSlug}`)
         // console.log(`component = ${component}`)
       })
 
@@ -101,10 +101,10 @@ exports.createPages = ({ actions, graphql }) => {
           let mdFilesRegion
           if (element) {
             mdFilesRegion = mdFiles.filter(post =>post.node.frontmatter.meeting === element)
-            console.log("\n"+element+":-");
+            //console.log("\n"+element+":-");
           } else {
             mdFilesRegion = mdFiles
-            console.log("\nAll country:-");
+            //console.log("\nAll country:-");
           }
           let countToursRegion = mdFilesRegion.length
           console.log("# tours (countToursRegion) = "+countToursRegion);
@@ -141,7 +141,7 @@ exports.createPages = ({ actions, graphql }) => {
             //ToursIndexPage shows the correct tours for given region & tag, but no cards
             // as problem with defining "posts" so that cards show in correct format
             //TourIndexPage shows cards for all tours, but does not get pagecontext
-            console.log("slug = "+thisSlug);
+            //console.log("slug = "+thisSlug);
             createPage({
               path: thisSlug,
               component: path.resolve(`src/templates/${String(template)}.js`),
@@ -158,7 +158,7 @@ exports.createPages = ({ actions, graphql }) => {
           template = "TourListRegion" //removes tag from graphql
           //was ToursIndexPage4reg, which uses MUI
           thisSlug = "/"+element.toLowerCase()+"/"
-          console.log("slug = "+thisSlug)
+          //console.log("slug = "+thisSlug)
           createPage({
             path: thisSlug,
             component: path.resolve(`src/templates/${String(template)}.js`),
@@ -190,7 +190,7 @@ exports.createPages = ({ actions, graphql }) => {
         //* for all tours in country, define slug & create page
         template = "TourListAll" //removes tag from graphql
         thisSlug = "/all/"
-        console.log("slug = "+thisSlug)
+        //console.log("slug = "+thisSlug)
         createPage({
           path: thisSlug,
           component: path.resolve(`src/templates/${String(template)}.js`),
@@ -206,7 +206,7 @@ exports.createPages = ({ actions, graphql }) => {
         allTags.forEach(item => { //item = tag
           thisSlug = "/all/"+item.toLowerCase()+"/"
           template = "TourListTag" //
-          console.log("slug = "+thisSlug);
+          //console.log("slug = "+thisSlug);
           createPage({
             path: thisSlug,
             component: path.resolve(`src/templates/${String(template)}.js`),
@@ -256,9 +256,9 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       slug = `/${parsedFilePath.dir}/`
     }
 
-    console.log(`\nparsedFilePath.name = ${parsedFilePath.name}`)
-    console.log(`parsedFilePath.dir = ${parsedFilePath.dir}`)
-    console.log(`slug = ${slug}`)
+    //console.log(`\nparsedFilePath.name = ${parsedFilePath.name}`)
+    //console.log(`parsedFilePath.dir = ${parsedFilePath.dir}`)
+    //console.log(`slug = ${slug}`)
 
     createNodeField({
       node,

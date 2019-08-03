@@ -1,4 +1,4 @@
-//* based on TourRegionsNav.js, https://www.w3schools.com/howto/howto_css_sidebar_responsive.asp
+//* based on TourRegionsNav.js, https://flaviocopes.com/css-grid/ 
 
 import React from 'react'
 import { Link } from 'gatsby'
