@@ -21,7 +21,7 @@ import Layout from '../components/Layout'
 import TourSectionNew from '../components/TourSectionNew' //simple function version of PostSection
 
 //! changes re sidebar
-import Sidebar from '../components/Sidebar'
+import SideBar from '../components/SideBar'
 
 
 const PlaceCatIndex = ({ pageContext, data }) => (
@@ -83,8 +83,8 @@ const PlaceCatIndex = ({ pageContext, data }) => (
               <section className="section">
                 <div className="container">
                   <div className="mainblock">                
-                    <div className="sidebar">
-                      <Sidebar enableSearch 
+                    <div className="aside">
+                      <SideBar enableSearch 
                       regions={arrAllRegions}
                       tags={arrTagsRegion}
                       place = {place} 

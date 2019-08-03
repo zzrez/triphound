@@ -6,7 +6,7 @@ import { Link } from 'gatsby'
 import TourSearch from './TourSearch' //version of BlogSearch
 import './SideBar.css' //https://www.w3schools.com/howto/howto_css_sidebar_responsive.asp
 
-const Sidebar = ({ regions, tags, tag, place, enableSearch }) => {
+const SideBar = ({ regions, tags, tag, place, enableSearch }) => {
 
   let adjPlace, adjPlaceText, selTag
   if (place) {
@@ -20,8 +20,6 @@ const Sidebar = ({ regions, tags, tag, place, enableSearch }) => {
 
   return (
   
-  <div className="aside">
-    
     <div className="sidebar">
       {enableSearch && <TourSearch />}
 
@@ -79,8 +77,7 @@ const Sidebar = ({ regions, tags, tag, place, enableSearch }) => {
         }
       })}
     </div>
-  </div>
   )
 }
 
-export default Sidebar
+export default SideBar
