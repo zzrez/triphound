@@ -71,7 +71,7 @@ exports.createPages = ({ actions, graphql }) => {
           }
         })
 
-        console.log(`contentType = ${contentType}`)
+        // console.log(`contentType = ${contentType}`)
         //console.log(`id = ${id}`)
         //console.log(`slug = ${thisSlug}`)
         // console.log(`component = ${component}`)
@@ -217,7 +217,7 @@ exports.createPages = ({ actions, graphql }) => {
               allRegions: allRegions.toString(),
             }
           })
-        });        
+        });
 
       } //* END SECTION FOR TOURS
 

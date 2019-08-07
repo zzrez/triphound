@@ -5,15 +5,16 @@ import PropTypes from 'prop-types'
 import Image from './Image'
 import Content from './Content'
 import './ListPageHeader.css' //version of PageHeader.css
+import DropMenuButton from "./DropMenuButton";
 
 const ListPageHeader = ({ place, tag, count }) => {
   //let backgroundImage = ""
-  
+
   //let className = "PageHeader relative"
   //className = ""
 
   //*Format?
-  // 13 Adventure activities in Jaco / Costa Rica 
+  // 13 Adventure activities in Jaco / Costa Rica
   // 50 total activities in Jaco
   // or
   // Adventure activities in Jaco / Costa Rica  (13)
@@ -36,10 +37,11 @@ const ListPageHeader = ({ place, tag, count }) => {
   }
 
   placeTitle = placeTitle  + " ("+count+")"
-  
+
   return (
       <div className="container">
         <h2>{placeTitle}</h2>
+        <DropMenuButton title="Filters" id="dropButton" />
       </div>
   )
 }

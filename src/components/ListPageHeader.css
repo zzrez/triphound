@@ -1,7 +1,11 @@
 
 /* External additions to the file */
 .section { padding: 0;}
-.container {margin-top:10px;}
+.container {
+  margin-top:10px;
+  display: flex; /* new */
+  justify-content: space-between; /* new */
+}
 
 .PageHeader {
   background-color: var(--darkGrey);
