@@ -1,0 +1,22 @@
+#dropButton {
+  background-color: #fff;
+  margin-top: 25px;
+  width: 80px;
+  height: 30px;
+  /* border-radius: 50%; */
+  border: 1px solid #0065a6;
+  outline: none;
+  transition: all 0.2s cubic-bezier(0, 1.26, 0.8, 1.28);
+}
+
+#dropButton:hover {
+  background-color: #d8ebf7;
+  cursor: pointer;
+  border-color: #003557;
+  transform: scale(1.05, 1.05);
+}
+
+#dropButton:active {
+  border-color: #003557;
+  background-color: #fff;
+}

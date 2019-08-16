@@ -7,7 +7,7 @@
 
 
 //* full version for tags
-import React, { useState } from 'react';
+import React from 'react'; //! remove useState
 import { graphql } from 'gatsby';
 import { Location } from '@reach/router'
 import qs from 'qs'
@@ -22,6 +22,8 @@ import TourSectionNew from '../components/TourSectionNew' //simple function vers
 
 //! changes re sidebar
 import SideBar from '../components/SideBar'
+// import DropMenuButton from "../components/DropMenuButton";
+// import DropMenu from "../components/DropMenu";
 
 
 const PlaceCatIndex = ({ pageContext, data }) => (
@@ -29,32 +31,14 @@ const PlaceCatIndex = ({ pageContext, data }) => (
   <Location>
     {({ location }) => {
 
-  const { tag, place, tagsRegion, allRegions } = pageContext;
-  // const { edges, totalCount } = data.allMarkdownRemark;
-  // const post = data.markdownRemark
-  let { edges: posts, totalCount } = data.allMarkdownRemark;
-  //const totalCount = data.allMarkdownRemark.totalCount
-  // const posts = data.allMarkdownRemark
-  // const totalCount = posts.totalCount
-  //const posts = data.allMarkdownRemark.edges.node
-  //let { title, tags, price_from, featuredImage } = posts.node.frontmatter;
-  //let { title, tags, price_from, featuredImage } = data.allMarkdownRemark.edges.node.frontmatter;
+    const { tag, place, tagsRegion, allRegions } = pageContext;
 
-
-  const arrTagsRegion = tagsRegion.split(",")
-  const arrAllRegions = allRegions.split(",")
-
-  //*Not used
-//   let mainTitle
-//   if (tag) {
-//       mainTitle = place + "-" + tag
-//   } else {
-//       mainTitle = place
-//   }
-//   mainTitle = mainTitle + " ("+totalCount+")"
+    let { edges: posts, totalCount } = data.allMarkdownRemark;
+    const arrTagsRegion = tagsRegion.split(",")
+    const arrAllRegions = allRegions.split(",")
 
     let enableSearch = true,
-    filteredPosts = posts 
+    filteredPosts = posts
 
     //* Add filter
     let queryObj = location.search.replace('?', '')
@@ -64,7 +48,7 @@ const PlaceCatIndex = ({ pageContext, data }) => (
       const searchTerm = queryObj.s.toLowerCase()
       filteredPosts = posts.filter(post =>
         post.node.frontmatter.title.toLowerCase().includes(searchTerm)
-      ) 
+      )
     }
 
   return (
@@ -78,16 +62,17 @@ const PlaceCatIndex = ({ pageContext, data }) => (
               //backgroundImage={featuredImage}
             />
 
-            {/*TOUR LISTING USING COMPONENTS */}
+
+            {/*TOUR LISTING & SIDEBAR USING COMPONENTS WITH HOOKS */}
             {!!filteredPosts.length && (
               <section className="section">
                 <div className="container">
-                  <div className="mainblock">                
+                  <div className="mainblock">
                     <div className="aside">
-                      <SideBar enableSearch 
+                      <SideBar enableSearch
                       regions={arrAllRegions}
                       tags={arrTagsRegion}
-                      place = {place} 
+                      place = {place}
                       tag={tag} />
                     </div>
                     <div className="content">

@@ -5,6 +5,7 @@ import PropTypes from 'prop-types'
 import Image from './Image'
 import Content from './Content'
 import './ListPageHeader.css' //version of PageHeader.css
+import DropMenuButton from "./DropMenuButton";
 
 const ListPageHeader = ({ place, tag, count }) => {
   //let backgroundImage = ""
@@ -40,6 +41,7 @@ const ListPageHeader = ({ place, tag, count }) => {
   return (
       <div className="container">
         <h2>{placeTitle}</h2>
+        <DropMenuButton title="Filters" id="dropButton"/>
       </div>
   )
 }

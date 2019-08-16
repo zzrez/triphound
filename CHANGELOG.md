@@ -1,7 +1,24 @@
 # TRIPHOUND
+## 2019-08-07
+Add dropmenu: adjust TourList.js
+DropMenuButton.js / DropMenuButton.css / DropMenu.js / DropMenu.css
+Must fix it (scrolling, position, small only, shows current selection)
+TO DO: 
+1) Format dp, decide if go for dropdown inputs for each field place/tag, get working (goes to right page)
+2) scrolling
+3) make Filters button only appear for small window
+4) check if window refreshing or not. If does, may be related to new TourList.js with dropdown menu
+5) add to all tour list templates
+Links to codesandbox are given in Notebook/React/Dropdown
+NOTE: definition of .container in ListPageHeader.css changes container everywhere. Acceptable?
+
+## 2019-08-06
+Laptop: add flex to definition of container in ListPageHeader.css, this affects container elsewhere
+Hooks adapted to Triphound with radios:  https://codesandbox.io/s/goofy-aryabhata-re6jd , must solve the clicking inside dropdown menu in https://blog.campvanilla.com/reactjs-dropdown-menus-b6e06ae3a8fe. => must add to Triphound
+
 ## 2019-08-03
 Fail: try to put several GraphQL queries in one template, TourList-ifGraphQL3aug19.js (2nd for region not showing anything).
-Update other 3 TourList templates (_All, _Tag, _Region) to have same code between <Layout> tags, and include SideBar component. Only graphQL and top comment differ.
+Update other 3 TourList templates (_All, _Tag, _Region) to have same code between <Layout> tags, and include SideBar component. Only graphQL and top comment differ. If reverting to previous templates in Copies folder, beware case of SideBar in all.
 
 ## 2019-08-02
 Add sidebar in TourList.js, following example of https://www.tourradar.com/d/costa-rica 
@@ -15,7 +32,7 @@ Meant changing Nav.js & Layout.js (including graphql in latter)
 Solve filter & more results for TourListALL.js.
 After adding in Location (@reach/router), filter works in TourListAll-filter-notstate25jul19.js
 But useState hook for showing more results fails.
-Solved by moving useState hook for showing more results from tourlist page to TourSectionNew.js 
+Solved by moving useState hook for showing more results from tourlist page to TourSectionNew.js
 
 TourSearch.js, copy of BlogSearch, used in TourSectionNew.js
 
@@ -28,7 +45,7 @@ DIFFERENCE BETWEEN THESE TEMPLATES: top of graphql, and note at top
 
 ## 2019-07-24
 Try to solve filter of TourListALL.js, fail
-Put TourSearch instead of BlogSearch in TourRegionsNav.js. 
+Put TourSearch instead of BlogSearch in TourRegionsNav.js.
 Save old copies in folder Copies. But filter of TourListALL.js fails.
 
 ## 2019-07-16
@@ -58,7 +75,7 @@ Copy from gatsby-blog-lunr & add in plugin gatsby-plugin-lunr.js:-
 - in Nav.js, <NavLink to="/search">Search all tours</NavLink>
 
 ## 2019-07-08
-ToursIndexPage3.js has Show More, along with counter. ToursIndexPage4.js & ToursIndexPage4reg.js, 
+ToursIndexPage3.js has Show More, along with counter. ToursIndexPage4.js & ToursIndexPage4reg.js,
 without counter, now used.
 
 ## 2019-07-04
@@ -106,8 +123,8 @@ add accordion
 
 ## 2.0.1 - 2018-10-18
 
-Configure Uploadcare widget  
-Image component setup  
+Configure Uploadcare widget
+Image component setup
 Add google maps
 
 ## 2.0.0 - 2018-10-15
