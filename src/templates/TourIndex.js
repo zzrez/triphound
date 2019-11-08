@@ -89,7 +89,7 @@ export const TourIndexTemplate = ({
       }
 
       return (
-        <main className="Blog222">
+        <main555 className="Blog222">
           <PageHeader
             title={title}
             subtitle={subtitle}
@@ -97,7 +97,7 @@ export const TourIndexTemplate = ({
           />
 
           {!!region.length && (
-            <section className="section222 thin">
+            <section555 className="section222 thin">
               <div className="container222">
                 <TourRegionNav enableSearch places={region} />
               </div>
@@ -105,7 +105,7 @@ export const TourIndexTemplate = ({
           )}
 
           {!!tourCategories.length && (
-            <section className="section2222 thin">
+            <section555 className="section2222 thin">
               <div className="container222">
                 <PostCategoriesNav categories={tourCategories} />
               </div>
@@ -113,7 +113,7 @@ export const TourIndexTemplate = ({
           )}
 
           {!!posts.length && (
-            <section className="section222">
+            <section555 className="section222">
               <div className="container222">
                 <PostSection posts={filteredPosts} />
               </div>
