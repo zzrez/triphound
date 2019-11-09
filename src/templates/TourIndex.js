@@ -89,7 +89,7 @@ export const TourIndexTemplate = ({
       }
 
       return (
-        <main555 className="Blog222">
+        <main className="Blog222">
           <PageHeader
             title={title}
             subtitle={subtitle}
@@ -101,7 +101,7 @@ export const TourIndexTemplate = ({
               <div className="container222">
                 <TourRegionNav enableSearch places={region} />
               </div>
-            </section>
+            </section555>
           )}
 
           {!!tourCategories.length && (
@@ -109,7 +109,7 @@ export const TourIndexTemplate = ({
               <div className="container222">
                 <PostCategoriesNav categories={tourCategories} />
               </div>
-            </section>
+            </section555>
           )}
 
           {!!posts.length && (
@@ -117,7 +117,7 @@ export const TourIndexTemplate = ({
               <div className="container222">
                 <PostSection posts={filteredPosts} />
               </div>
-            </section>
+            </section555>
           )}
         </main>
       )
