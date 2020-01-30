@@ -1,4 +1,9 @@
+
 # TRIPHOUND
+
+## 2020-01-30
+Remove content/pages/tourlisting.md and src/templates/TourIndex.js to root. No apparent difference. Save to github.
+
 ## 2019-08-07
 Add dropmenu: adjust TourList.js
 DropMenuButton.js / DropMenuButton.css / DropMenu.js / DropMenu.css
