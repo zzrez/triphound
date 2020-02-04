@@ -5,6 +5,10 @@ const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
 
+//FUDGE MUST AUTOMATE!
+let allRegions = []
+//let allRegions = [ 'Jaco', 'Sarapiqui', 'La Fortuna', 'San Jose' ]
+
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
 
@@ -40,6 +44,7 @@ exports.createPages = ({ actions, graphql }) => {
     const mdFiles = result.data.allMarkdownRemark.edges
 
     const contentTypes = _.groupBy(mdFiles, 'node.fields.contentType')
+    console.log(`\ncontentTypes: ${contentTypes}`)
     // contentType: tours, posts, infoPages, postCategories, pages
 
     _.each(contentTypes, (pages, contentType) => {
@@ -50,7 +55,7 @@ exports.createPages = ({ actions, graphql }) => {
 
       if (!pagesToCreate.length) return console.log(`Skipping ${contentType}`)
 
-      console.log(`\nCreating ${pagesToCreate.length} ${contentType}`)
+      console.log(`\nCreating ${pagesToCreate.length} pages, contentType = ${contentType}:-`)
 
       // if (node.frontmatter.template === "TourIndex") {
       //   const idTourIndex = node.id
@@ -71,9 +76,13 @@ exports.createPages = ({ actions, graphql }) => {
           }
         })
 
-        // console.log(`contentType = ${contentType}`)
+        if (contentType === "tours") {
+            //console.log(`${thisSlug}`)
+            console.log("Uncomment to see list")
+        } else {
+            console.log(`${thisSlug}`)
+        }
         //console.log(`id = ${id}`)
-        //console.log(`slug = ${thisSlug}`)
         // console.log(`component = ${component}`)
       })
 
@@ -82,7 +91,7 @@ exports.createPages = ({ actions, graphql }) => {
         console.log(`\nCreating regional ${contentType} lists`)
 
         //* create array allRegions of regions
-        let allRegions = []
+        
         // Iterate through each post, putting all found meeting into `allRegions`
         _.each(mdFiles, edge => {
           if (_.get(edge, "node.frontmatter.meeting")) {
@@ -107,7 +116,8 @@ exports.createPages = ({ actions, graphql }) => {
             //console.log("\nAll country:-");
           }
           let countToursRegion = mdFilesRegion.length
-          console.log("# tours (countToursRegion) = "+countToursRegion);
+          //console.log(`# tours in $element: $countToursRegion`);
+          console.log("# tours in "+element+": "+countToursRegion)
 
           //* define tags for region (allTagsRegion)
           let allTagsRegion = []
@@ -121,7 +131,7 @@ exports.createPages = ({ actions, graphql }) => {
           allTagsRegion = _.uniq(allTagsRegion)
           //* end new tags
 
-          console.log(`Distinct tags for region (allTagsRegion):-`)
+          console.log("Distinct tags for region "+element+":-")
           console.log(allTagsRegion)
           //id = idTourIndex
           //templateSlug = element
@@ -158,7 +168,8 @@ exports.createPages = ({ actions, graphql }) => {
           template = "TourListRegion" //removes tag from graphql
           //was ToursIndexPage4reg, which uses MUI
           thisSlug = "/"+element.toLowerCase()+"/"
-          //console.log("slug = "+thisSlug)
+          //thisSlug = "/"+_.kebabCase(element)+"/"
+          console.log("slug = "+thisSlug)
           createPage({
             path: thisSlug,
             component: path.resolve(`src/templates/${String(template)}.js`),
@@ -184,7 +195,7 @@ exports.createPages = ({ actions, graphql }) => {
         allTags = _.uniq(allTags)
         //* end new tags
 
-        console.log(`allTags:-`)
+        console.log(`All tags for country (allTags):-`)
         console.log(allTags)
 
         //* for all tours in country, define slug & create page
@@ -246,6 +257,11 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       parsedFilePath.dir === 'pages'
     ) {
       slug = `/`
+    } else if ( //NEW
+      // region is given root slug
+      parsedFilePath.dir === 'region'
+    ) {
+      slug = `/${node.frontmatter.title.toLowerCase()}/` //END NEW
     } else if (_.get(node, 'frontmatter.title')) {
       slug = `/${_.kebabCase(parsedFilePath.dir)}/${_.kebabCase(
         node.frontmatter.title
@@ -256,9 +272,11 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       slug = `/${parsedFilePath.dir}/`
     }
 
-    //console.log(`\nparsedFilePath.name = ${parsedFilePath.name}`)
-    //console.log(`parsedFilePath.dir = ${parsedFilePath.dir}`)
-    //console.log(`slug = ${slug}`)
+    if (parsedFilePath.dir !== 'tours') {
+    console.log(`\nparsedFilePath.name = ${parsedFilePath.name}`)
+    console.log(`parsedFilePath.dir = ${parsedFilePath.dir}`)
+    console.log(`slug = ${slug}`)
+    }
 
     createNodeField({
       node,
@@ -272,6 +290,13 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       name: 'contentType',
       value: parsedFilePath.dir
     })
+
+    // // Add contentType to node.fields
+    // createNodeField({
+    //   node,
+    //   name: 'regions',
+    //   value: allRegions.toString()
+    // })
   }
 }
 
