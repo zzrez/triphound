@@ -4,6 +4,7 @@ const _ = require('lodash')
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
+const util = require('util')
 
 //FUDGE MUST AUTOMATE!
 let allRegions = []
@@ -44,7 +45,9 @@ exports.createPages = ({ actions, graphql }) => {
     const mdFiles = result.data.allMarkdownRemark.edges
 
     const contentTypes = _.groupBy(mdFiles, 'node.fields.contentType')
-    console.log(`\ncontentTypes: ${contentTypes}`)
+    //console.log(`\ncontentTypes:-`)
+    //console.log(util.inspect(contentTypes, {showHidden: false, depth: null}))
+    //console.log(contentTypes)
     // contentType: tours, posts, infoPages, postCategories, pages
 
     _.each(contentTypes, (pages, contentType) => {
@@ -78,7 +81,7 @@ exports.createPages = ({ actions, graphql }) => {
 
         if (contentType === "tours") {
             //console.log(`${thisSlug}`)
-            console.log("Uncomment to see list")
+            //console.log("Uncomment to see list")
         } else {
             console.log(`${thisSlug}`)
         }
