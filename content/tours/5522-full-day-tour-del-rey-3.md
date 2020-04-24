@@ -34,13 +34,14 @@ includes: "*   Transportation (Jaco)
 *   Waterfall entrance
 *   Bilingual guide"
 excludes: ""
-bring: |-
-  * CameraPC
+bring: "|-
+  * CameraPC2
   * Swimsuit    
   * Closed-toed shoes (tennis shoes etc.)
   * Comfortable clothing you can get dirty    
   * Sunscreen  
   * Bug spray
+  "
 advice: "No flip flops, sandals, or open-toed shoes  
 ATV drivers must be 16 years of age or older with a valid driver’s license  
 Unlicensed participants and children under 16 must ride as passengers  
