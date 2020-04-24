@@ -385,14 +385,14 @@ collections: # A list of collections the CMS should be able to edit
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - { label: Template, name: template, widget: hidden, default: SinglePost }
+      - { label: Template, name: template, widget: hidden, default: SingleTour }
       - { label: Title, name: title, widget: string }
       - label: 'Status'
         name: 'status'
         widget: 'select'
         options: ['Published', 'Featured', 'Draft']
         default: 'Published'
-      - { label: Date / Order, name: date, widget: date }
+      - { label: Date, name: date, widget: date }
       - {
           label: Featured Image,
           name: featuredImage,
@@ -400,6 +400,10 @@ collections: # A list of collections the CMS should be able to edit
           required: false,
         }
       - { label: Excerpt, name: excerpt, widget: text }
+      - {label: "Meeting", name: "meeting", widget: "string", required: false}
+      - {label: "Meeting Lat", name: "meeting_lat", widget: "string", required: false}
+      - {label: "Meeting Lng", name: "meeting_lng", widget: "string", required: false}
+      
       - {label: "Price from, $", name: "price_from", widget: "number"}
 
       - {label: "Tags", name: "tags", widget: "list", required: false}

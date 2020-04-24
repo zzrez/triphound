@@ -1,43 +1,52 @@
 ---
 template: SingleTour
-title: Full Day Tour del Rey
-status: Published
-date: 'Sat Jul 20 2019 19:29:44 GMT-0600 (Central Standard Time)'
-featuredImage: >-
-  https://www.adventuretourscostarica.com/images/made/images/mobile/Costa-Rica-Tours-Mobile_320_250_c1.jpg
-excerpt: Temporary excerpt!
+tourId: 5522
+date: "Sat Jul 20 2019 19:29:44 GMT-0600 (Central Standard Time)"
+title: "Full Day Tour del Rey"
+categories: 
+  - category: Adventure
+  - category: Atv
+tags: ['Adventure', 'Atv']
+meeting: "Jaco"
+meeting_lat: "9.65596"
+meeting_lng: "-84.6224"
+description: "Costa Rica tour Full Day Tour del Rey, id 5522"
 price_from: 189
-tags:
-  - Adventure
-  - Atv
-start_time_text: '8:30am, 9:30am, 10:30am'
-duration_text: 6 hours - Up to 100 Kilometers
-summary: >-
-  If you want the private, VIP, all-included, full-day, beach to bluff tour of
-  the Central Pacific coast - look no further.
-highlights: ''
-highlights2: ''
-includes: >-
-  *   Transportation (Jaco) *   Equipment rentals *   Delicious lunch *  
-  Waterfall entrance *   Bilingual guide
-excludes: ''
+min_participants: 
+max_participants: 
+start_time_text: "8:30am, 9:30am, 10:30am"
+duration_text: "6 hours - Up to 100 Kilometers"
+price_adult: null
+price_child: null
+price_student: null
+meeting_id: 45
+location_id: 45
+difficulty: "null"
+summary: "If you want the private, VIP, all-included, full-day, beach to bluff tour of the Central Pacific coast - look no further."
+image: "https://www.adventuretourscostarica.com/images/made/images/mobile/Costa-Rica-Tours-Mobile_320_250_c1.jpg"
+main_photo: "https://www.adventuretourscostarica.com/images/made/images/mobile/Costa-Rica-Tours-Mobile_320_250_c1.jpg"
+featuredImage: "https://www.adventuretourscostarica.com/images/made/images/mobile/Costa-Rica-Tours-Mobile_320_250_c1.jpg"
+highlights: ""
+highlights2: ""
+includes: "*   Transportation (Jaco)
+*   Equipment rentals
+*   Delicious lunch
+*   Waterfall entrance
+*   Bilingual guide"
+excludes: ""
 bring: |-
-  * CameraNEW
+  * CameraPC
   * Swimsuit    
   * Closed-toed shoes (tennis shoes etc.)
   * Comfortable clothing you can get dirty    
   * Sunscreen  
   * Bug spray
-advice: >-
-  No flip flops, sandals, or open-toed shoes   ATV drivers must be 16 years of
-  age or older with a valid driver’s license   Unlicensed participants and
-  children under 16 must ride as passengers   The number of ATV passengers in
-  your group may not outnumber the ATV drivers   Rhino Capacity: 4 people per
-  vehicle
-accom: ''
-categories:
-  - category: Adventure
-  - category: Atv
+advice: "No flip flops, sandals, or open-toed shoes  
+ATV drivers must be 16 years of age or older with a valid driver’s license  
+Unlicensed participants and children under 16 must ride as passengers  
+The number of ATV passengers in your group may not outnumber the ATV drivers  
+Rhino Capacity: 4 people per vehicle"
+accom: ""
 ---
 If you want the private, VIP, all-included, full-day, beach to bluff tour of the Central Pacific coast - look no further.
 
