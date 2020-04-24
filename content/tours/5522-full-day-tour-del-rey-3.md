@@ -35,12 +35,12 @@ includes: "*   Transportation (Jaco)
 *   Bilingual guide"
 excludes: ""
 bring: |-
-  * CameraPC3
-  * Swimsuit    
-  * Closed-toed shoes (tennis shoes etc.)
-  * Comfortable clothing you can get dirty    
-  * Sunscreen  
-  * Bug spray
+  * Clothes to get wet in (new)
+  *  Change of clothes
+  *  Secure shoes
+  *  Extra money to buy photos or a t-shirt of your tour
+  *  Sense of adventure
+  *  A big smile
 advice: "No flip flops, sandals, or open-toed shoes  
 ATV drivers must be 16 years of age or older with a valid driver’s license  
 Unlicensed participants and children under 16 must ride as passengers  
